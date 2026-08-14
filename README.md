@@ -115,21 +115,6 @@ More projects will be added as I progress.
 
 ---
 
-## 📂 Repository Structure
-
-```text
-cybersecurity-journey/
-│
-├── README.md
-├── notes/
-├── certificates/
-├── projects/
-├── labs/
-└── resources/
-```
-
----
-
 ## 🌱 Current Focus
 
 > Building my cybersecurity foundation one skill, project, and lab at a time.
