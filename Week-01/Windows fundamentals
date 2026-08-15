@@ -1,0 +1,102 @@
+# Windows Fundamentals — Day 2
+
+Today I learned some basic concepts about Windows and how it works. Since I want to study cybersecurity, I think understanding the operating system is important before moving to more advanced security topics.
+
+## 🖥️ What I Learned
+
+### 1. Windows
+
+Windows is an operating system made by Microsoft. It helps us use the computer, run applications, manage files, and communicate with the hardware.
+
+I use Windows every day, but I had never really thought about what happens behind the screen. Today I started understanding it from a cybersecurity point of view.
+
+### 2. Files and Folders
+
+Files are used to store information on a computer, while folders help us organize those files.
+
+For example, pictures, documents, videos, and programs are all stored as files.
+
+Some common file types are:
+
+* `.txt` — text file
+* `.jpg` / `.png` — image
+* `.pdf` — PDF document
+* `.exe` — Windows program
+* `.py` — Python file
+
+I learned that understanding files is important in cybersecurity because security professionals sometimes need to find suspicious or unauthorized files.
+
+### 3. Processes
+
+A process is basically a program that is currently running on the computer.
+
+For example, when I open Google Chrome, it runs as a process.
+
+I also learned that I can see running processes through **Task Manager**. Task Manager shows things like CPU, memory, disk, and network usage.
+
+This is useful in cybersecurity because a suspicious or unknown process could sometimes indicate that something unwanted is running on a computer.
+
+### 4. Users
+
+Windows allows different users to have different accounts.
+
+There are mainly:
+
+* **Standard users** — have limited permissions.
+* **Administrator users** — have more control over the computer and can make important system changes.
+
+I learned that giving every user administrator access isn't always a good security practice because higher privileges can create more risk if an account is compromised.
+
+### 5. Permissions
+
+Permissions decide what a user is allowed to do with a file, folder, or system resource.
+
+For example, a user might be allowed to:
+
+* Read a file
+* Edit a file
+* Delete a file
+* Run a program
+
+Permissions are an important part of cybersecurity because they help protect important information from unauthorized access.
+
+## 🔐 Why This Is Important for Cybersecurity
+
+Today I understood that cybersecurity isn't only about hacking or using security tools.
+
+First, I need to understand how computers actually work.
+
+Learning about Windows, processes, users, and permissions will help me understand how attackers can misuse a system and how security professionals can protect it.
+
+## 🧠 My Learning Today
+
+Today I learned:
+
+* What Windows does
+* The difference between files and folders
+* What a process is
+* The difference between standard and administrator users
+* What permissions are
+* Why these concepts matter in cybersecurity
+
+## 🧪 What I Practiced
+
+I opened **Task Manager** on my computer and looked at the processes that were running.
+
+I also explored some files and folders on my computer to better understand how Windows organizes information.
+
+## 🎯 Next Step
+
+My next topic is **Linux basics**. I want to learn the Linux terminal and some basic commands because Linux is widely used in cybersecurity.
+
+## 📌 Progress
+
+* [x] Windows basics
+* [x] Files and folders
+* [x] Processes
+* [x] Users
+* [x] Permissions
+* [ ] Linux basics
+* [ ] Networking basics
+
+**Day 2 completed ✅**
