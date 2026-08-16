@@ -1,0 +1,133 @@
+# Linux Fundamentals — Day 3
+
+Today I continued my cybersecurity journey by learning about **Linux**. I completed the **Pre Security** learning path on TryHackMe and also worked through the **Linux Fundamentals** material.
+
+I learned that Linux is very important in cybersecurity because it is widely used for servers, security tools, networking, and penetration testing.
+
+## 🐧 What is Linux?
+
+Linux is an open-source operating system. Unlike Windows, Linux is commonly used through the command line, although many Linux distributions also have a graphical interface.
+
+There are different Linux distributions, such as:
+
+* Ubuntu
+* Debian
+* Kali Linux
+* Fedora
+
+I learned that Kali Linux is commonly used for cybersecurity and penetration testing.
+
+## 💻 Linux Terminal
+
+One of the main things I learned was how to use the Linux terminal.
+
+The terminal allows me to interact with the operating system by typing commands.
+
+Some commands I practiced were:
+
+```bash
+pwd
+ls
+cd
+mkdir
+touch
+cat
+cp
+mv
+rm
+```
+
+### What these commands do:
+
+* `pwd` — shows my current directory
+* `ls` — shows files and folders
+* `cd` — moves to another directory
+* `mkdir` — creates a new directory
+* `touch` — creates a new file
+* `cat` — displays the contents of a file
+* `cp` — copies files
+* `mv` — moves or renames files
+* `rm` — removes files
+
+## 📁 Working With Files and Directories
+
+I practiced creating directories and files and moving between different locations.
+
+For example:
+
+```bash
+mkdir cybersecurity
+cd cybersecurity
+touch notes.txt
+ls
+```
+
+This helped me understand how files and folders are managed through the command line.
+
+## 👤 Users and Permissions
+
+I also learned about Linux users, groups, and file permissions.
+
+Linux uses permissions to control who can:
+
+* Read a file
+* Write or change a file
+* Execute a file
+
+The three basic permissions are:
+
+**Read (r)**
+**Write (w)**
+**Execute (x)**
+
+I learned that permissions are important in cybersecurity because they help control access to files and system resources.
+
+## 🔐 Why Linux is Important for Cybersecurity
+
+Linux is important for cybersecurity because many servers and security tools use Linux.
+
+Learning Linux will also help me understand:
+
+* System administration
+* Networking
+* Security tools
+* File permissions
+* Processes
+* Logs
+* Command-line tools
+
+This was one of the first steps toward becoming comfortable with the command line.
+
+## 🧪 What I Practiced
+
+During my learning, I practiced using Linux commands and working with files and directories.
+
+I also completed the **Pre Security** path on TryHackMe and studied the **Linux Fundamentals** material.
+
+## 🧠 What I Learned Today
+
+* Linux is an open-source operating system.
+* The terminal allows users to interact with the operating system using commands.
+* Linux has different distributions.
+* Files and directories can be managed using commands.
+* Users and groups can have different permissions.
+* Linux knowledge is important for cybersecurity.
+
+## 🎯 Next Step
+
+My next step is to continue learning **networking fundamentals**, including IP addresses, ports, protocols, DNS, HTTP, and the OSI model.
+
+## 📌 Progress
+
+* [x] TryHackMe Pre Security
+* [x] Linux Fundamentals
+* [x] Linux terminal basics
+* [x] File and directory management
+* [x] Users and groups
+* [x] Basic permissions
+* [ ] Networking fundamentals
+* [ ] TCP/IP
+* [ ] DNS
+* [ ] HTTP/HTTPS
+
+**Day 3 completed ✅**
