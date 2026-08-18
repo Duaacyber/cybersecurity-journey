@@ -1,0 +1,143 @@
+# Networking Fundamentals — Day 4
+
+Today I started learning about **computer networking**. I learned that networking is an important part of cybersecurity because computers, phones, servers, and other devices communicate with each other through networks.
+
+Before learning how to secure a network, I need to understand how networks work.
+
+## 🌐 What is a Network?
+
+A network is a group of connected devices that can communicate and share information with each other.
+
+For example, when I connect my laptop to Wi-Fi, my laptop becomes part of a network.
+
+Networks can be used to share:
+
+* Information
+* Files
+* Internet connections
+* Services
+* Resources
+
+## 🏠 Types of Networks
+
+I learned about some common types of networks:
+
+### LAN
+
+LAN stands for **Local Area Network**.
+
+It is used in a small area, such as a home, school, office, or computer lab.
+
+### WAN
+
+WAN stands for **Wide Area Network**.
+
+It covers a larger geographical area. The Internet is an example of a very large network.
+
+## 📍 IP Address
+
+An IP address is used to identify a device on a network.
+
+For example:
+
+`192.168.1.10`
+
+I learned that devices need addresses so they can communicate with each other.
+
+There are two main versions:
+
+* IPv4
+* IPv6
+
+IPv4 is written using four numbers separated by dots, while IPv6 uses a longer format.
+
+## 🔗 MAC Address
+
+A MAC address is a unique hardware address associated with a network interface.
+
+It is mainly used for communication within a local network.
+
+I learned that an IP address and a MAC address are not the same thing.
+
+## 🌐 Router
+
+A router connects different networks and helps send data to the correct destination.
+
+For example, my home router connects my local devices to the Internet.
+
+## 🔌 Ports
+
+A port helps identify a particular service or application running on a device.
+
+Some common ports I learned about are:
+
+* Port 22 — SSH
+* Port 53 — DNS
+* Port 80 — HTTP
+* Port 443 — HTTPS
+
+I learned that knowing ports is important in cybersecurity because open ports can provide information about services running on a system.
+
+## 📡 TCP and UDP
+
+I learned that TCP and UDP are two common communication protocols.
+
+### TCP
+
+TCP focuses on reliable communication. It makes sure data is delivered correctly and in the right order.
+
+### UDP
+
+UDP is faster and has less overhead, but it does not provide the same level of delivery reliability as TCP.
+
+## 🔐 Why Networking is Important for Cybersecurity
+
+Networking is one of the most important foundations of cybersecurity.
+
+Cybersecurity professionals need to understand how devices communicate so they can identify:
+
+* Suspicious connections
+* Open ports
+* Unusual network activity
+* Unauthorized access
+* Network attacks
+
+Without understanding networking, it would be difficult to understand many cybersecurity attacks and defenses.
+
+## 🧪 What I Practiced
+
+Today I practiced identifying basic networking concepts and learned about IP addresses, MAC addresses, ports, routers, TCP, and UDP.
+
+I also started becoming familiar with common networking terms that I will use throughout my cybersecurity studies.
+
+## 🧠 What I Learned Today
+
+* A network connects devices so they can communicate.
+* LAN is used over a smaller area.
+* WAN covers a larger area.
+* IP addresses identify devices on a network.
+* MAC addresses identify network interfaces.
+* Routers connect different networks.
+* Ports are associated with network services.
+* TCP provides reliable communication.
+* UDP is faster but does not provide the same delivery guarantees as TCP.
+* Networking knowledge is essential for cybersecurity.
+
+## 🎯 Next Step
+
+My next topic will be **DNS, HTTP/HTTPS, and how websites communicate over the Internet**.
+
+## 📌 Progress
+
+* [x] Computer fundamentals
+* [x] Windows fundamentals
+* [x] TryHackMe Pre Security
+* [x] Linux Fundamentals
+* [x] Linux terminal basics
+* [x] Networking basics
+* [ ] DNS
+* [ ] HTTP/HTTPS
+* [ ] OSI Model
+* [ ] TCP/IP Model
+
+**Day 4 completed ✅**
