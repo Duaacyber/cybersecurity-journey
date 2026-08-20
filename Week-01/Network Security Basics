@@ -1,0 +1,117 @@
+# Network Security Basics — Day 6
+
+Today I started learning about **network security**. After learning the basics of networking, I wanted to understand how networks can be protected from different threats.
+
+## 🔐 What is Network Security?
+
+Network security means protecting a network, devices, and data from unauthorized access, attacks, and misuse.
+
+It is an important part of cybersecurity because many attacks happen through networks.
+
+## 🧱 Firewall
+
+A firewall is a security system that monitors network traffic and can allow or block traffic based on security rules.
+
+For example, a firewall can help prevent unauthorized connections from reaching a computer or network.
+
+I learned that firewalls can be implemented as software or hardware.
+
+## 🛡️ IDS and IPS
+
+I learned about two important security systems:
+
+### IDS
+
+IDS stands for **Intrusion Detection System**.
+
+It monitors network activity and looks for suspicious behavior. When it detects something suspicious, it can generate an alert.
+
+### IPS
+
+IPS stands for **Intrusion Prevention System**.
+
+It can detect suspicious activity and take action to block or prevent it.
+
+### Simple Difference
+
+**IDS → Detects and alerts**
+
+**IPS → Detects and helps prevent**
+
+## ⚠️ Common Network Threats
+
+I learned about some common network threats, including:
+
+* Malware
+* Phishing
+* Denial-of-Service (DoS)
+* Man-in-the-Middle attacks
+* Password attacks
+* Unauthorized access
+
+I also learned that different attacks work in different ways, so security professionals need different methods to detect and prevent them.
+
+## 🎣 Phishing
+
+Phishing is a type of social engineering attack where an attacker tries to trick someone into providing sensitive information or clicking a malicious link.
+
+For example, an attacker might create a fake email that looks like it came from a trusted company.
+
+Some warning signs include:
+
+* Suspicious links
+* Unknown senders
+* Urgent messages
+* Requests for passwords or personal information
+* Spelling or grammar mistakes
+
+## 🚨 Denial-of-Service
+
+A **Denial-of-Service (DoS)** attack attempts to make a service or system unavailable to legitimate users by overwhelming or disrupting it.
+
+I learned that this can affect websites, servers, and other network services.
+
+## 🔑 Importance of Strong Authentication
+
+I also learned that strong passwords and multi-factor authentication can help protect accounts from unauthorized access.
+
+Using the same password everywhere is risky because if one account is compromised, other accounts may also become vulnerable.
+
+## 🧠 What I Learned Today
+
+* Network security protects networks and connected devices.
+* Firewalls can allow or block network traffic.
+* IDS detects suspicious activity and generates alerts.
+* IPS can detect and help prevent suspicious activity.
+* Phishing uses deception to steal information.
+* DoS attacks can make services unavailable.
+* Strong authentication is an important part of security.
+
+## 🧪 What I Practiced
+
+Today I reviewed different network security concepts and tried to identify examples of suspicious network activity and phishing attempts.
+
+I also reviewed the difference between normal network traffic and potentially suspicious activity.
+
+## 🎯 Next Step
+
+My next step is to learn about **common cybersecurity attacks and how defenders detect and respond to them**.
+
+## 📌 Progress
+
+* [x] Computer fundamentals
+* [x] Windows fundamentals
+* [x] TryHackMe Pre Security
+* [x] Linux Fundamentals
+* [x] Networking fundamentals
+* [x] DNS
+* [x] HTTP/HTTPS
+* [x] OSI model
+* [x] Network security basics
+* [x] Firewall
+* [x] IDS and IPS
+* [ ] Common cybersecurity attacks
+* [ ] Defensive security
+* [ ] Security tools
+
+**Day 6 completed ✅**
