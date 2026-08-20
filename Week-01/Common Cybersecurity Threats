@@ -1,0 +1,130 @@
+# Common Cybersecurity Threats — Day 7
+
+Today I started learning about some of the most common **cybersecurity threats and attacks**.
+
+I learned that cybersecurity is not only about protecting computers. It is also about protecting data, accounts, networks, websites, and people from different types of threats.
+
+## 🔐 What is a Cybersecurity Threat?
+
+A cybersecurity threat is a possible danger that can harm a computer system, network, account, or data.
+
+A threat can come from different sources, such as attackers, malicious software, or even human mistakes.
+
+## 🦠 Malware
+
+Malware means **malicious software**.
+
+It is software designed to damage systems, steal information, spy on users, or perform other harmful actions.
+
+Some common types of malware are:
+
+* Virus
+* Worm
+* Trojan
+* Ransomware
+* Spyware
+
+## 🦠 Virus
+
+A virus is malicious code that can attach itself to files or programs and spread when the infected file or program is opened or executed.
+
+## 🪱 Worm
+
+A worm is malware that can spread from one computer to another, often without needing the user to manually open an infected file.
+
+## 🐴 Trojan
+
+A Trojan is malicious software that pretends to be legitimate or useful software.
+
+For example, someone might download a program thinking it is safe, but the program may actually contain malicious code.
+
+## 🔒 Ransomware
+
+Ransomware is malware that can lock or encrypt files and then demand payment from the victim.
+
+I learned that keeping backups and using good security practices can help reduce the impact of ransomware.
+
+## 👀 Spyware
+
+Spyware is designed to secretly monitor or collect information from a user or device.
+
+It can potentially collect sensitive information such as browsing activity or credentials.
+
+## 🎣 Phishing
+
+Phishing is an attack where an attacker tries to trick a person into giving away sensitive information or clicking a harmful link.
+
+Phishing can happen through:
+
+* Email
+* Messages
+* Fake websites
+* Social media
+* Phone calls
+
+I learned that phishing attacks often use urgency or fear to make people act without thinking.
+
+## 🔑 Password Attacks
+
+Attackers may try different methods to gain access to accounts.
+
+Some examples include:
+
+* Brute-force attacks
+* Password guessing
+* Credential stuffing
+
+Using strong and unique passwords and enabling multi-factor authentication can help protect accounts.
+
+## 👤 Social Engineering
+
+Social engineering involves manipulating people instead of directly attacking technology.
+
+For example, an attacker may pretend to be a trusted person to convince someone to reveal confidential information.
+
+This taught me that **people are also an important part of cybersecurity**.
+
+## 🧠 What I Learned Today
+
+* Malware is malicious software.
+* Viruses and worms can spread in different ways.
+* Trojans can pretend to be legitimate programs.
+* Ransomware can encrypt files and demand payment.
+* Spyware can secretly collect information.
+* Phishing tries to trick people into giving information or clicking harmful links.
+* Strong passwords and MFA can improve account security.
+* Social engineering targets people and their behavior.
+
+## 🛡️ How to Stay Safer
+
+Some basic security practices I learned are:
+
+* Use strong and unique passwords.
+* Enable multi-factor authentication.
+* Keep software updated.
+* Avoid suspicious links and attachments.
+* Download software from trusted sources.
+* Keep important data backed up.
+* Be careful when sharing personal information online.
+
+## 🎯 Next Step
+
+My next step is to learn more about **how cybersecurity professionals detect attacks and investigate suspicious activity**.
+
+## 📌 Progress
+
+* [x] Computer fundamentals
+* [x] Windows fundamentals
+* [x] TryHackMe Pre Security
+* [x] Linux Fundamentals
+* [x] Networking fundamentals
+* [x] DNS
+* [x] HTTP/HTTPS
+* [x] OSI model
+* [x] Network security
+* [x] Common cybersecurity threats
+* [ ] Defensive security
+* [ ] Security monitoring
+* [ ] Incident response
+
+**Day 7 completed ✅**
