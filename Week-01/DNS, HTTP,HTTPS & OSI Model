@@ -1,0 +1,123 @@
+# DNS, HTTP/HTTPS & OSI Model — Day 5
+
+Today I continued learning about networking. I focused on **DNS, HTTP, HTTPS, and the OSI model**.
+
+These topics are important for cybersecurity because they help me understand how devices communicate and how websites work.
+
+## 🌐 What is DNS?
+
+DNS stands for **Domain Name System**.
+
+DNS changes a website name into an IP address that computers can understand.
+
+For example, when I type a website name into my browser, DNS helps find the IP address of the server where that website is hosted.
+
+### Simple example:
+
+```text
+Website name → DNS → IP address → Web server
+```
+
+Without DNS, we would have to remember IP addresses instead of simple website names.
+
+## 🌍 What is HTTP?
+
+HTTP stands for **Hypertext Transfer Protocol**.
+
+It is a protocol used for communication between a web browser and a web server.
+
+For example:
+
+```text
+Browser → HTTP Request → Web Server
+Browser ← HTTP Response ← Web Server
+```
+
+An HTTP request asks the server for something, and the server sends a response back.
+
+## 🔒 What is HTTPS?
+
+HTTPS stands for **Hypertext Transfer Protocol Secure**.
+
+It is the secure version of HTTP.
+
+HTTPS uses encryption to help protect information being sent between the browser and the website.
+
+This is especially important when entering sensitive information such as passwords or personal information.
+
+## 🔢 Common Web Ports
+
+I also learned about some common ports:
+
+| Port | Protocol | Common Use             |
+| ---- | -------- | ---------------------- |
+| 53   | DNS      | Domain name resolution |
+| 80   | HTTP     | Web traffic            |
+| 443  | HTTPS    | Secure web traffic     |
+| 22   | SSH      | Secure remote access   |
+
+Learning about ports is useful in cybersecurity because security professionals need to understand which services are running on a system.
+
+## 🧩 OSI Model
+
+The **OSI model** is a way of understanding how network communication works.
+
+It has seven layers:
+
+1. Physical
+2. Data Link
+3. Network
+4. Transport
+5. Session
+6. Presentation
+7. Application
+
+I found the OSI model a little difficult at first, but I understood that each layer has a different role in network communication.
+
+## 🛡️ Why This Matters in Cybersecurity
+
+Understanding DNS, HTTP, HTTPS, ports, and the OSI model will help me understand how network attacks and defenses work.
+
+For example, cybersecurity professionals may investigate:
+
+* Suspicious DNS requests
+* Unusual network traffic
+* Open ports
+* Unsafe HTTP connections
+* Suspicious web requests
+
+## 🧠 What I Learned Today
+
+* DNS converts domain names into IP addresses.
+* HTTP is used for communication between web browsers and servers.
+* HTTPS provides a more secure connection by using encryption.
+* Different services use different network ports.
+* The OSI model has seven layers.
+* Networking knowledge is an important part of cybersecurity.
+
+## 🧪 Practical Learning
+
+Today I practiced identifying common protocols and their ports.
+
+I also looked at how a website works from the browser to the server and learned how DNS helps the browser find the correct server.
+
+## 🎯 Next Step
+
+My next step is to learn more about **network security, common network attacks, and how security professionals protect networks**.
+
+## 📌 Progress
+
+* [x] Computer fundamentals
+* [x] Windows fundamentals
+* [x] TryHackMe Pre Security
+* [x] Linux Fundamentals
+* [x] Networking basics
+* [x] DNS
+* [x] HTTP/HTTPS
+* [x] Common ports
+* [x] OSI model
+* [ ] Network security
+* [ ] Common network attacks
+* [ ] Defensive security
+
+**Day 5 completed ✅**
