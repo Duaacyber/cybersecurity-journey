@@ -1,0 +1,134 @@
+# Security Monitoring — Day 9
+
+Today I learned more about **security monitoring** and how cybersecurity professionals investigate suspicious activity.
+
+Yesterday I learned about defensive security, SOCs, SIEM, logs, and security alerts. Today I focused on how these things are used together to find possible security incidents.
+
+## 🔎 What is Security Monitoring?
+
+Security monitoring means continuously watching systems, networks, and applications for unusual or suspicious activity.
+
+The main goal is to detect possible threats as early as possible.
+
+Some examples of things a security team may monitor are:
+
+* Login attempts
+* Network connections
+* User activity
+* File changes
+* System processes
+* Security alerts
+
+## 📋 Understanding Logs
+
+Logs are one of the most useful sources of information during an investigation.
+
+For example, a login log might contain:
+
+```text
+Username
+IP address
+Date and time
+Login status
+```
+
+If I notice many failed login attempts from the same IP address, it could be something worth investigating.
+
+## 🚨 Investigating an Alert
+
+I learned that receiving an alert does not automatically mean that an attack has happened.
+
+A security analyst needs to investigate it.
+
+A simple investigation process can be:
+
+1. Read the alert.
+2. Check when it happened.
+3. Identify the affected user or system.
+4. Check the source IP address.
+5. Look at related logs.
+6. Decide whether the activity is normal or suspicious.
+7. Take appropriate action if necessary.
+
+## 🕵️ Example Investigation
+
+Imagine a user has 20 failed login attempts within a few minutes.
+
+I would want to check:
+
+* Which account was targeted?
+* Where did the attempts come from?
+* Were the attempts successful later?
+* Was the IP address unusual?
+* Did anything suspicious happen after the successful login?
+
+This showed me that cybersecurity investigations require both technical knowledge and logical thinking.
+
+## ⚠️ False Positives
+
+I also learned about **false positives**.
+
+A false positive happens when a security system identifies something as suspicious even though it is actually normal activity.
+
+For example, a user might enter the wrong password several times because they forgot it.
+
+This is why security analysts need to investigate alerts instead of assuming every alert is an attack.
+
+## 🧰 SIEM
+
+A SIEM can collect security logs from different systems and make them easier to search and analyze.
+
+Security teams can use SIEM systems to:
+
+* Collect logs
+* Search events
+* Detect patterns
+* Create alerts
+* Investigate incidents
+
+I learned that SIEM knowledge can be useful for people who want to work in a SOC.
+
+## 🧠 What I Learned Today
+
+* Security monitoring helps detect suspicious activity.
+* Logs provide evidence during investigations.
+* Alerts need to be investigated before deciding whether they are real threats.
+* IP addresses and timestamps can help during an investigation.
+* False positives can happen.
+* SIEM systems help security teams collect and analyze security events.
+* Cybersecurity investigation requires logical thinking.
+
+## 🧪 My Practice
+
+I practiced thinking through a simple failed-login scenario and considered what information I would check during an investigation.
+
+I also reviewed the relationship between:
+
+**Logs → SIEM → Alerts → Investigation → Response**
+
+## 🎯 Next Step
+
+My next step is to learn about **incident response and how security teams handle a confirmed security incident**.
+
+## 📌 Progress
+
+* [x] Computer fundamentals
+* [x] Windows fundamentals
+* [x] TryHackMe Pre Security
+* [x] Linux Fundamentals
+* [x] Networking fundamentals
+* [x] DNS
+* [x] HTTP/HTTPS
+* [x] OSI model
+* [x] Network security
+* [x] Common cybersecurity threats
+* [x] Defensive security
+* [x] Logs
+* [x] Security alerts
+* [x] SOC basics
+* [x] SIEM basics
+* [x] Security monitoring
+* [ ] Incident response
+* [ ] Incident investigation
+
+**Day 9 completed ✅**
