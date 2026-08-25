@@ -1,0 +1,133 @@
+# Incident Response — Day 10
+
+Today I learned about **Incident Response** and how cybersecurity teams deal with security incidents.
+
+After learning about security monitoring and alerts, I wanted to understand what happens when an alert is confirmed to be a real security problem.
+
+## 🚨 What is an Incident?
+
+A cybersecurity incident is an event that can negatively affect the security of a computer, network, system, or data.
+
+Examples include:
+
+* Unauthorized account access
+* Malware infection
+* Data theft
+* Phishing attacks
+* Ransomware
+* Suspicious network activity
+
+## 🛡️ What is Incident Response?
+
+Incident response is the process of identifying, investigating, containing, and recovering from a cybersecurity incident.
+
+The main goal is to reduce the damage and return the affected system to a safe condition.
+
+## 🔄 Basic Incident Response Process
+
+I learned about the main stages of incident response:
+
+### 1. Preparation
+
+Before an incident happens, organizations should prepare their security tools, procedures, backups, and response plans.
+
+### 2. Detection and Analysis
+
+Security teams monitor systems and investigate alerts to determine whether an actual incident has happened.
+
+They may look at:
+
+* Logs
+* IP addresses
+* User activity
+* Network traffic
+* Security alerts
+
+### 3. Containment
+
+Once an incident is confirmed, the security team tries to stop it from spreading.
+
+For example, an affected device may be isolated from the network.
+
+### 4. Eradication
+
+The security team removes the cause of the incident.
+
+This could involve removing malware, disabling compromised accounts, or fixing a security weakness.
+
+### 5. Recovery
+
+After removing the threat, systems are restored and monitored to make sure they are working safely again.
+
+### 6. Lessons Learned
+
+After the incident, the team reviews what happened.
+
+They ask:
+
+* What caused the incident?
+* How did the attacker get in?
+* What could have prevented it?
+* What should be improved?
+
+This helps reduce the chance of the same incident happening again.
+
+## 🧪 Simple Example
+
+Imagine an employee clicks a suspicious link and their computer becomes infected with malware.
+
+A security team might:
+
+1. Detect the suspicious activity.
+2. Investigate the computer and logs.
+3. Disconnect the computer from the network.
+4. Remove the malware.
+5. Restore the computer.
+6. Check whether any information was stolen.
+7. Improve security measures to prevent a similar incident.
+
+This helped me understand how different cybersecurity skills work together during a real incident.
+
+## 🧠 What I Learned Today
+
+* A cybersecurity incident can affect systems, networks, accounts, or data.
+* Incident response is used to handle security incidents.
+* Preparation is important before an attack happens.
+* Security teams investigate incidents using evidence such as logs.
+* Containment helps stop an incident from spreading.
+* Eradication removes the cause of the problem.
+* Recovery helps restore affected systems.
+* Lessons learned can improve future security.
+
+## 💡 My Takeaway
+
+Today I understood that cybersecurity is not only about preventing attacks.
+
+Even with strong security, incidents can still happen. What matters is being able to **detect, investigate, contain, recover, and learn from them**.
+
+I found incident response interesting because it combines technical knowledge with problem-solving and decision-making.
+
+## 🎯 Next Step
+
+My next step is to learn more about **malware and how security professionals identify and analyze suspicious files and activity**.
+
+## 📌 Progress
+
+* [x] Computer fundamentals
+* [x] Windows fundamentals
+* [x] TryHackMe Pre Security
+* [x] Linux Fundamentals
+* [x] Networking fundamentals
+* [x] DNS
+* [x] HTTP/HTTPS
+* [x] OSI model
+* [x] Network security
+* [x] Common cybersecurity threats
+* [x] Defensive security
+* [x] Security monitoring
+* [x] Incident response
+* [ ] Malware analysis
+* [ ] Security tools
+* [ ] Practical security projects
+
+**Day 10 completed ✅**
