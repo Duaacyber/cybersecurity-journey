@@ -1,0 +1,125 @@
+# Cybersecurity Tools — Day 13
+
+Today I learned about some common **cybersecurity tools** and what they are used for.
+
+I realized that cybersecurity professionals use different tools for different tasks. Some tools are used for networking, some for finding vulnerabilities, and others for monitoring and analyzing systems.
+
+## 🛠️ 1. Nmap
+
+**Nmap** is a network scanning tool.
+
+It can be used to discover devices and services on a network and identify open ports.
+
+For example, a security professional might use Nmap in an authorized lab to understand which services are available on a system.
+
+I learned that Nmap is useful for network discovery and security testing.
+
+## 🌐 2. Wireshark
+
+**Wireshark** is a network protocol analyzer.
+
+It allows security professionals to capture and examine network traffic.
+
+It can be useful for understanding:
+
+* Network protocols
+* Connections
+* Packets
+* Suspicious traffic
+* Communication between devices
+
+I learned that Wireshark can help analysts investigate network problems and possible security incidents.
+
+## 🕵️ 3. Burp Suite
+
+**Burp Suite** is a tool used for testing web applications.
+
+It can help security professionals inspect and understand HTTP and HTTPS requests and responses.
+
+It is commonly used during authorized web security testing.
+
+## 🐧 4. Linux Command Line
+
+The Linux terminal itself is an important tool for cybersecurity.
+
+I can use commands to:
+
+* Explore files
+* Check processes
+* Manage permissions
+* View network information
+* Analyze logs
+
+Learning Linux commands will help me become more comfortable with cybersecurity tools.
+
+## 🔐 5. Hashing Tools
+
+Hashing tools can generate hashes from files or other data.
+
+Hashes can be useful for:
+
+* Checking file integrity
+* Identifying files
+* Comparing files
+* Investigating suspicious files
+
+I learned that a hash is not the same thing as encryption. A hash is designed to produce a fixed-length value from data.
+
+## 🔎 6. VirusTotal
+
+**VirusTotal** is an online service that can be used to check files, URLs, domains, and other indicators against multiple security engines and sources.
+
+It can be useful when investigating a suspicious file or URL.
+
+I learned that results should still be interpreted carefully instead of assuming that one detection automatically proves something is malicious.
+
+## 🧠 What I Learned Today
+
+* Different cybersecurity tools have different purposes.
+* Nmap is mainly used for network discovery and scanning.
+* Wireshark is used to analyze network traffic.
+* Burp Suite is used for web application security testing.
+* Linux commands are important for cybersecurity work.
+* Hashing can help with file identification and integrity checking.
+* VirusTotal can help investigate suspicious files and URLs.
+
+## ⚠️ Important Security Rule
+
+I learned that cybersecurity tools should only be used on systems and networks that I own or have permission to test.
+
+I will use tools such as Nmap and Burp Suite in legal training environments such as TryHackMe or my own lab.
+
+## 💡 My Takeaway
+
+Today I understood that knowing a tool is not enough. I also need to understand **why and when** a security professional would use it.
+
+I want to focus on learning a few tools properly instead of trying to learn every cybersecurity tool at once.
+
+## 🎯 Next Step
+
+My next step is to start doing more **hands-on cybersecurity labs** and use some of these tools in safe, authorized environments.
+
+## 📌 Progress
+
+* [x] Computer fundamentals
+* [x] Windows fundamentals
+* [x] TryHackMe Pre Security
+* [x] Linux Fundamentals
+* [x] Networking fundamentals
+* [x] DNS
+* [x] HTTP/HTTPS
+* [x] OSI model
+* [x] Network security
+* [x] Common cybersecurity threats
+* [x] Defensive security
+* [x] Security monitoring
+* [x] Incident response
+* [x] Malware fundamentals
+* [x] Malware detection
+* [x] Hashes
+* [x] Indicators of Compromise
+* [x] Cybersecurity tools
+* [ ] Hands-on security labs
+* [ ] First cybersecurity project
+
+**Day 13 completed ✅**
