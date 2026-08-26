@@ -77,9 +77,9 @@ My goal is to develop strong practical and theoretical foundations in cybersecur
 
 | Project                          | Status         | Skills           |
 | -------------------------------- | -------------- | ---------------- |
-| Cybersecurity Learning Portfolio | 🟡 In Progress | GitHub, Markdown |
-| Network Security Lab             | ⬜ Planned      | Networking       |
-| Python Security Tool             | ⬜ Planned      | Python           |
+| Cybersecurity Learning Portfolio | done           | GitHub, Markdown |
+| Network Security Lab             | done            | Networking       |
+| Python Security Tool             | 🟡 In Progress  | Python           |
 | Linux Security Lab               | ⬜ Planned      | Linux            |
 | Web Security Lab                 | ⬜ Planned      | Web Security     |
 
@@ -91,9 +91,9 @@ More projects will be added as I progress.
 
 | Course / Certificate       | Platform | Status         |
 | -------------------------- | -------- | -------------- |
-| Cybersecurity Fundamentals | —        | 🟡 In Progress |
-| Networking Fundamentals    | —        | ⬜ Planned      |
-| Linux Fundamentals         | —        | ⬜ Planned      |
+| Cybersecurity Fundamentals |Tryhackme | Done           |
+| Networking Fundamentals    |Tryhackme | Done           |
+| Linux Fundamentals         | Hackviser|🟡 In Progress  |
 | Python Fundamentals        | —        | ⬜ Planned      |
 
 ---
