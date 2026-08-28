@@ -1,0 +1,119 @@
+# Nmap Basics — Day 14
+
+Today I started learning about **Nmap**, one of the most commonly used tools in cybersecurity and networking.
+
+I learned that Nmap can help security professionals discover devices, identify open ports, and find services running on a system.
+
+## 🔎 What is Nmap?
+
+Nmap stands for **Network Mapper**.
+
+It is a network scanning tool that can be used to gather information about a computer or network.
+
+Security professionals use Nmap for tasks such as:
+
+* Network discovery
+* Finding open ports
+* Identifying services
+* Checking available hosts
+* Security testing
+
+## 🔌 What are Open Ports?
+
+A port is a communication endpoint used by network services.
+
+For example:
+
+* Port 22 → SSH
+* Port 53 → DNS
+* Port 80 → HTTP
+* Port 443 → HTTPS
+
+An open port can indicate that a service is listening for connections.
+
+I learned that open ports are not automatically dangerous, but security professionals should understand which services are running and whether they are properly secured.
+
+## 💻 Basic Nmap Command
+
+I practiced Nmap in a **legal training environment**.
+
+A basic scan looks like:
+
+```bash
+nmap <target>
+```
+
+This can provide information about open ports and available services.
+
+I also learned that Nmap has many different options for more detailed scans, but I am focusing on the basics first.
+
+## 🧪 What I Practiced
+
+I used Nmap against a TryHackMe training machine rather than scanning random systems on the Internet.
+
+I practiced:
+
+* Running a basic scan
+* Identifying open ports
+* Looking at available services
+* Understanding what the results mean
+
+## 🛡️ Why Nmap is Important in Cybersecurity
+
+Nmap is useful for both offensive and defensive security.
+
+A security tester can use it to understand the attack surface of an authorized system.
+
+A defender can also use similar information to check whether unnecessary services or ports are exposed.
+
+## ⚠️ Important Security Rule
+
+Nmap should only be used against systems that I own or have explicit permission to test.
+
+For my learning, I will use **TryHackMe labs and my own virtual machines**.
+
+## 🧠 What I Learned Today
+
+* Nmap is a network scanning tool.
+* It can help discover hosts and open ports.
+* Ports are associated with network services.
+* Open ports are not automatically vulnerabilities.
+* Nmap can be useful for both security testing and defensive security.
+* Security tools should only be used in authorized environments.
+
+## 💡 My Takeaway
+
+Today I finally started using a real cybersecurity tool instead of only studying theory.
+
+I found it interesting to see how much information can be learned about a system just by understanding its network services.
+
+I also learned that using security tools responsibly is very important.
+
+## 🎯 Next Step
+
+My next step is to learn more about **Nmap scanning options and service detection** and understand how to interpret scan results.
+
+## 📌 Progress
+
+* [x] Computer fundamentals
+* [x] Windows fundamentals
+* [x] TryHackMe Pre Security
+* [x] Linux Fundamentals
+* [x] Networking fundamentals
+* [x] DNS
+* [x] HTTP/HTTPS
+* [x] OSI model
+* [x] Network security
+* [x] Common cybersecurity threats
+* [x] Defensive security
+* [x] Security monitoring
+* [x] Incident response
+* [x] Malware fundamentals
+* [x] Malware detection
+* [x] Cybersecurity tools
+* [x] Nmap basics
+* [ ] Service detection
+* [ ] Network scanning practice
+* [ ] First cybersecurity project
+
+**Day 14 completed ✅**
