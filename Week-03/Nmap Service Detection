@@ -1,0 +1,143 @@
+# Nmap Service Detection — Day 15
+
+Today I continued learning **Nmap** and practiced understanding scan results in more detail.
+
+Yesterday I learned what Nmap is and how it can be used to find open ports. Today I focused more on **service detection** and understanding what is running behind an open port.
+
+## 🔎 Service Detection
+
+Finding an open port is only the first step.
+
+After finding an open port, I also want to know which service is running on it.
+
+For example:
+
+```text
+Port 22  → SSH
+Port 80  → HTTP
+Port 443 → HTTPS
+```
+
+Knowing the service helps a security professional understand what the system is offering over the network.
+
+## 🧰 Nmap Service Detection
+
+I learned that Nmap can try to identify the services and their versions running on open ports.
+
+A commonly used option is:
+
+```bash
+nmap -sV <target>
+```
+
+The `-sV` option tells Nmap to try to determine the service/version information.
+
+I practiced this only on an authorized TryHackMe lab machine.
+
+## 📊 Understanding Scan Results
+
+A typical Nmap result can show information such as:
+
+```text
+PORT     STATE    SERVICE
+22/tcp   open     ssh
+80/tcp   open     http
+```
+
+I learned how to understand these columns:
+
+* **PORT** → The port number and protocol
+* **STATE** → Whether the port is open, closed, or filtered
+* **SERVICE** → The service associated with the port
+
+## 🟢 Open
+
+An **open** port means that a service is listening and accepting connections.
+
+## 🔴 Closed
+
+A **closed** port means that the port is reachable, but there is no service currently listening on it.
+
+## 🟡 Filtered
+
+A **filtered** port means that Nmap cannot clearly determine whether the port is open because something, such as a firewall, is blocking or filtering the traffic.
+
+## 🛡️ Why Service Detection Matters
+
+Service detection is useful because security professionals need to understand the **attack surface** of a system.
+
+For example, if an old or unnecessary service is running, it may create additional security risk.
+
+However, simply finding a service does not mean that the system is vulnerable.
+
+More investigation is needed before making that conclusion.
+
+## 🧪 What I Practiced
+
+Today I practiced Nmap service detection in a TryHackMe environment.
+
+I:
+
+* Scanned an authorized target.
+* Identified open ports.
+* Used service detection.
+* Looked at the services associated with the ports.
+* Practiced reading the scan results.
+
+## ⚠️ Security Rule
+
+I learned that scanning systems without permission can be illegal or disruptive.
+
+I will only use Nmap against:
+
+* TryHackMe machines
+* My own lab
+* Systems where I have explicit permission
+
+## 🧠 What I Learned Today
+
+* Nmap can identify open ports.
+* Service detection can help identify services and versions.
+* `-sV` is used for service/version detection.
+* Open, closed, and filtered ports have different meanings.
+* An open port is not automatically a vulnerability.
+* Understanding services helps identify a system's attack surface.
+* Security tools should always be used in authorized environments.
+
+## 💡 My Takeaway
+
+Today I understood that scanning is not just about finding open ports.
+
+The important part is understanding **what those ports are running and why they are exposed**.
+
+This made Nmap much more interesting because the scan results can provide useful information for further security investigation.
+
+## 🎯 Next Step
+
+My next step is to learn about **basic vulnerability scanning** and how security professionals identify potential weaknesses in authorized systems.
+
+## 📌 Progress
+
+* [x] Computer fundamentals
+* [x] Windows fundamentals
+* [x] TryHackMe Pre Security
+* [x] Linux Fundamentals
+* [x] Networking fundamentals
+* [x] DNS
+* [x] HTTP/HTTPS
+* [x] OSI model
+* [x] Network security
+* [x] Common cybersecurity threats
+* [x] Defensive security
+* [x] Security monitoring
+* [x] Incident response
+* [x] Malware fundamentals
+* [x] Malware detection
+* [x] Cybersecurity tools
+* [x] Nmap basics
+* [x] Nmap service detection
+* [ ] Vulnerability scanning
+* [ ] Security assessment
+* [ ] First cybersecurity project
+
+**Day 15 completed ✅**
