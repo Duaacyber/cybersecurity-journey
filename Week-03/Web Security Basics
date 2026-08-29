@@ -1,0 +1,203 @@
+# Web Security Basics — Day 17
+
+Today I started learning about **web application security**.
+
+Until now, I mainly focused on computers, Linux, networking, and basic security. Today I started learning how websites work and why web security is important.
+
+## 🌐 What is a Web Application?
+
+A web application is a program that runs through a web browser.
+
+Some examples are:
+
+* Online shopping websites
+* Social media platforms
+* Email services
+* Banking websites
+* Online learning platforms
+
+I learned that web applications usually involve a **client** and a **server**.
+
+The browser acts as the client, while the server processes requests and sends information back.
+
+## 🔄 How a Website Works
+
+When I enter a website address into my browser, several things happen.
+
+A simplified process is:
+
+```text
+Browser
+   ↓
+DNS
+   ↓
+Web Server
+   ↓
+HTTP/HTTPS Request
+   ↓
+Server Response
+   ↓
+Browser displays the webpage
+```
+
+This helped me connect the networking concepts I learned earlier with web security.
+
+## 🖥️ Client and Server
+
+### Client
+
+The client is usually the device or browser making a request.
+
+For example:
+
+```text
+My Browser → Request
+```
+
+### Server
+
+The server receives the request, processes it, and sends a response.
+
+For example:
+
+```text
+Web Server → Response
+```
+
+So a simple communication looks like:
+
+```text
+Client → Request → Server
+Client ← Response ← Server
+```
+
+## 📩 HTTP Request
+
+An HTTP request is sent by the browser to ask the server for something.
+
+For example, when I open a webpage, my browser sends a request to the web server.
+
+A request can contain information such as:
+
+* Method
+* URL
+* Headers
+* Parameters
+* Sometimes data
+
+## 📤 HTTP Response
+
+The server sends an HTTP response back to the browser.
+
+The response can contain:
+
+* Status code
+* Headers
+* Webpage content
+* Other data
+
+Some common status codes I learned are:
+
+| Status Code | Meaning         |
+| ----------- | --------------- |
+| 200         | OK / successful |
+| 301         | Redirect        |
+| 403         | Forbidden       |
+| 404         | Not Found       |
+| 500         | Server Error    |
+
+## 🔒 HTTP vs HTTPS
+
+I already learned about HTTP and HTTPS during networking.
+
+Today I understood their importance in web security more clearly.
+
+**HTTP** sends web traffic without the same encryption protection provided by HTTPS.
+
+**HTTPS** uses encryption to help protect communication between the browser and server.
+
+This is especially important when sensitive information is being transferred.
+
+## ⚠️ Common Web Security Problems
+
+I also learned that web applications can have security weaknesses.
+
+Some common examples include:
+
+* Weak authentication
+* Poor access control
+* SQL injection
+* Cross-site scripting (XSS)
+* Insecure configurations
+* Sensitive data exposure
+
+I will study these vulnerabilities in more detail in the coming days.
+
+## 🛡️ Why Web Security Matters
+
+Websites can contain sensitive information such as:
+
+* Passwords
+* Personal information
+* Payment information
+* Private messages
+* Business data
+
+If a web application is not properly secured, attackers may be able to access or manipulate information they should not have access to.
+
+## 🧪 What I Practiced
+
+Today I reviewed how a browser communicates with a web server.
+
+I also looked at HTTP requests, responses, and common HTTP status codes.
+
+I connected this with what I previously learned about DNS, ports, HTTP/HTTPS, and networking.
+
+## 🧠 What I Learned Today
+
+* Web applications run through web browsers and servers.
+* The browser acts as a client.
+* Servers process requests and return responses.
+* HTTP requests are sent from clients to servers.
+* HTTP responses are sent back from servers to clients.
+* HTTP status codes tell us what happened with a request.
+* HTTPS helps protect web communication through encryption.
+* Web applications can have different security vulnerabilities.
+
+## 💡 My Takeaway
+
+Today I understood that web security starts with understanding **how websites actually communicate**.
+
+The networking concepts I learned earlier are now starting to make more sense because I can see how they are used when accessing a real website.
+
+## 🎯 Next Step
+
+My next topic will be **HTTP requests and responses in more detail**, including methods, headers, parameters, and how security professionals inspect web traffic.
+
+## 📌 Progress
+
+* [x] Computer fundamentals
+* [x] Windows fundamentals
+* [x] TryHackMe Pre Security
+* [x] Linux Fundamentals
+* [x] Networking fundamentals
+* [x] DNS
+* [x] HTTP/HTTPS
+* [x] OSI model
+* [x] Network security
+* [x] Common cybersecurity threats
+* [x] Defensive security
+* [x] Security monitoring
+* [x] Incident response
+* [x] Malware fundamentals
+* [x] Malware detection
+* [x] Nmap basics
+* [x] Service detection
+* [x] Vulnerability scanning
+* [x] Web application basics
+* [ ] HTTP requests & responses
+* [ ] Cookies & sessions
+* [ ] Authentication
+* [ ] OWASP Top 10
+
+**Day 17 completed ✅**
