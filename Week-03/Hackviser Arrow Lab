@@ -1,0 +1,88 @@
+# Hackviser Arrow Lab — Day 18
+
+Today I worked on a hands-on cybersecurity training machine called **Arrow** on Hackviser.
+
+This was different from my previous days because instead of only studying cybersecurity concepts, I actually worked through a practical security environment.
+
+## 🧪 Lab
+
+**Platform:** Hackviser
+**Machine:** Arrow
+**Type:** Warmup / Beginner cybersecurity machine
+
+I completed the Arrow warmup machine and used it as an opportunity to practice the concepts I have been learning.
+
+## 🔍 What I Practiced
+
+During this lab, I focused on understanding how to approach a cybersecurity machine step by step.
+
+My general approach was:
+
+1. Understand the target.
+2. Gather information.
+3. Look for available services.
+4. Analyze the information I found.
+5. Identify possible weaknesses.
+6. Follow the clues provided by the lab.
+7. Complete the machine.
+
+This helped me understand that cybersecurity is not about randomly trying commands. It is about **observing, researching, testing, and thinking logically**.
+
+## 💻 Connection With What I Learned
+
+This lab connected with some of the topics I have already studied:
+
+* Linux fundamentals
+* Networking
+* Ports and services
+* Nmap
+* Vulnerability concepts
+* Reconnaissance
+* Problem-solving
+
+It was useful to see how these topics can come together in a practical environment.
+
+## 🧠 What I Learned
+
+The biggest thing I learned today was the importance of having a method when approaching a security challenge.
+
+Instead of immediately trying random things, I should:
+
+**Enumerate → Analyze → Research → Test → Document**
+
+I also became more comfortable working in a cybersecurity lab environment.
+
+## 📸 Evidence
+
+I documented my completion of the Arrow machine on LinkedIn.
+
+**LinkedIn post:**
+[Hackviser Arrow Achievement](https://lnkd.in/p/dh8E5NRM)
+
+## 💡 My Takeaway
+
+This was one of my first hands-on cybersecurity achievements, and it made the learning process much more interesting.
+
+Reading about cybersecurity concepts is useful, but actually applying them in a controlled lab helped me understand them better.
+
+I want to continue doing more hands-on labs and gradually work toward more difficult machines.
+
+## 🎯 Next Step
+
+My next step is to continue practicing web security and learn how to analyze **HTTP requests and responses** in more detail.
+
+## 📌 Progress
+
+* [x] TryHackMe Pre Security
+* [x] Linux Fundamentals
+* [x] Networking Fundamentals
+* [x] Nmap
+* [x] Vulnerability Scanning
+* [x] Web Security Basics
+* [x] Hackviser Arrow Warmup Machine
+* [ ] HTTP Requests & Responses
+* [ ] Cookies & Sessions
+* [ ] Authentication
+* [ ] OWASP Top 10
+
+**Day 18 completed ✅**
