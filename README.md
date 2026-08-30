@@ -72,32 +72,6 @@ My goal is to develop strong practical and theoretical foundations in cybersecur
 * Capture-the-Flag challenges
 
 ---
-
-## 🧪 Projects
-
-| Project                          | Status         | Skills           |
-| -------------------------------- | -------------- | ---------------- |
-| Cybersecurity Learning Portfolio | done           | GitHub, Markdown |
-| Network Security Lab             | done            | Networking       |
-| Python Security Tool             | 🟡 In Progress  | Python           |
-| Linux Security Lab               | ⬜ Planned      | Linux            |
-| Web Security Lab                 | ⬜ Planned      | Web Security     |
-
-More projects will be added as I progress.
-
----
-
-## 🏆 Certifications & Courses
-
-| Course / Certificate       | Platform | Status         |
-| -------------------------- | -------- | -------------- |
-| Cybersecurity Fundamentals |Tryhackme | Done           |
-| Networking Fundamentals    |Tryhackme | Done           |
-| Linux Fundamentals         | Hackviser|🟡 In Progress  |
-| Python Fundamentals        | —        | ⬜ Planned      |
-
----
-
 ## 📈 Learning Progress
 
 **Month 1:** Cybersecurity Fundamentals 🔄
