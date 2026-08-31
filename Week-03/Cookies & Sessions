@@ -1,0 +1,138 @@
+# Cookies & Sessions — Day 19
+
+Today I learned about **cookies and sessions** and how websites remember users.
+
+Before learning this, I wondered how a website knows that I am logged in when I move from one page to another. Today I learned that cookies and sessions are part of the answer.
+
+## 🍪 What is a Cookie?
+
+A cookie is a small piece of information that a website stores in a user's browser.
+
+Cookies can be used for things like:
+
+* Remembering login sessions
+* Saving preferences
+* Keeping items in a shopping cart
+* Tracking website activity
+
+For example, after logging into a website, the browser may receive a session cookie from the server.
+
+## 🔄 How Cookies Work
+
+A simple example is:
+
+```text
+Browser → Login Request → Server
+Browser ← Cookie ← Server
+Browser → Cookie + Request → Server
+```
+
+The browser can then send the cookie back to the website with future requests.
+
+This allows the website to recognize the user's session.
+
+## 👤 What is a Session?
+
+A session represents a user's interaction with a website over a period of time.
+
+For example, when I log into a website, the server can create a session for me.
+
+The server can associate my session with a unique session identifier.
+
+The browser usually stores this identifier in a cookie.
+
+## 🔐 Why Sessions Matter in Security
+
+Sessions are very important because they can be connected to a user's identity.
+
+If an attacker gets access to someone's valid session information, they may potentially be able to act as that user.
+
+This is why websites need to protect session information carefully.
+
+## ⚠️ Session Security Problems
+
+I learned about some security problems that can happen when sessions are not properly protected.
+
+Examples include:
+
+* Session hijacking
+* Session fixation
+* Weak session identifiers
+* Session information being exposed
+* Sessions not expiring properly
+
+## 🔒 Secure Cookies
+
+I learned that websites can use different security settings for cookies.
+
+Some important cookie attributes are:
+
+### Secure
+
+The `Secure` attribute helps ensure that a cookie is sent only over HTTPS connections.
+
+### HttpOnly
+
+The `HttpOnly` attribute helps prevent JavaScript from directly accessing the cookie.
+
+### SameSite
+
+The `SameSite` attribute can help reduce certain cross-site request attacks by controlling when cookies are sent with cross-site requests.
+
+## 🧪 What I Practiced
+
+Today I explored how websites use cookies and sessions.
+
+I looked at browser developer tools and learned where cookies can be viewed.
+
+I also connected cookies and sessions with the HTTP requests and responses I learned about earlier.
+
+## 🧠 What I Learned Today
+
+* Cookies are small pieces of information stored by a browser.
+* Websites can use cookies to remember users.
+* Sessions represent a user's interaction with a website.
+* Session identifiers can connect a browser to a user's session.
+* Session security is important because sessions can be linked to user accounts.
+* Secure, HttpOnly, and SameSite are important cookie security attributes.
+* Poor session management can create security vulnerabilities.
+
+## 💡 My Takeaway
+
+Today I finally understood how websites can remember that I am logged in while I move between different pages.
+
+I also learned that something as simple as a cookie can become a security issue if it is not handled properly.
+
+## 🎯 Next Step
+
+My next topic will be **authentication and authorization**, where I will learn more about how websites verify users and control what they are allowed to access.
+
+## 📌 Progress
+
+* [x] Computer fundamentals
+* [x] Windows fundamentals
+* [x] TryHackMe Pre Security
+* [x] Linux Fundamentals
+* [x] Networking fundamentals
+* [x] DNS
+* [x] HTTP/HTTPS
+* [x] OSI model
+* [x] Network security
+* [x] Common cybersecurity threats
+* [x] Defensive security
+* [x] Security monitoring
+* [x] Incident response
+* [x] Malware fundamentals
+* [x] Malware detection
+* [x] Nmap basics
+* [x] Service detection
+* [x] Vulnerability scanning
+* [x] Web application basics
+* [x] HTTP requests & responses
+* [x] Cookies & sessions
+* [ ] Authentication
+* [ ] Authorization
+* [ ] OWASP Top 10
+* [ ] Web security labs
+
+**Day 19 completed ✅**
