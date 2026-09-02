@@ -1,0 +1,133 @@
+# Authentication & Authorization — Day 20
+
+Today I learned about **authentication and authorization**.
+
+Before today, I sometimes thought these two terms meant the same thing. Now I understand that they have different purposes.
+
+## 🔐 What is Authentication?
+
+Authentication is the process of verifying **who a user is**.
+
+For example, when I log into an account using my username and password, the website checks whether my credentials are correct.
+
+Common authentication methods include:
+
+- Passwords
+- One-Time Passwords (OTP)
+- Security keys
+- Biometrics
+- Multi-Factor Authentication (MFA)
+
+A simple way to remember it:
+
+**Authentication = Who are you?**
+
+## 🛂 What is Authorization?
+
+Authorization determines **what an authenticated user is allowed to access or do**.
+
+For example:
+
+- A normal user can view their own profile.
+- An administrator can manage users.
+- A normal user should not be able to access an admin panel.
+
+A simple way to remember it:
+
+**Authorization = What are you allowed to do?**
+
+## 🔄 Authentication vs Authorization
+
+| Authentication | Authorization |
+|---|---|
+| Verifies identity | Checks permissions |
+| Usually happens during login | Happens when accessing resources |
+| "Who are you?" | "What can you access?" |
+| Uses credentials | Uses roles and permissions |
+
+## 🔑 Password Security
+
+I learned that websites should **never store passwords as plain text**.
+
+Instead, passwords should be securely stored using password-hashing methods designed for this purpose.
+
+A secure system should also use:
+
+- Strong passwords
+- Password hashing
+- Multi-Factor Authentication
+- Rate limiting
+- Account lockout or other protections against repeated login attempts
+
+## 🛡️ Multi-Factor Authentication
+
+MFA adds another layer of security.
+
+Instead of relying only on a password, a user may also need another verification method.
+
+For example:
+
+**Password + OTP**
+
+This makes an account harder to access even if the password is compromised.
+
+## ⚠️ Common Authentication Problems
+
+Some common security problems include:
+
+- Weak passwords
+- Password reuse
+- Credential stuffing
+- Brute-force login attempts
+- Poor password storage
+- Missing MFA
+- Insecure password reset systems
+
+## 🔓 Common Authorization Problems
+
+Authorization problems can happen when users are given more access than they should have.
+
+Examples include:
+
+- A normal user accessing an admin page
+- Users viewing another user's private information
+- Users performing actions they should not be allowed to perform
+
+This is why **least privilege** is important.
+
+### Least Privilege
+
+Users should receive only the permissions they actually need.
+
+## 🧪 What I Practiced
+
+Today I:
+
+- Compared authentication and authorization.
+- Reviewed different authentication methods.
+- Learned why password hashing is important.
+- Studied MFA.
+- Learned about roles and permissions.
+- Reviewed common authentication and authorization weaknesses.
+
+## 💡 What I Understood
+
+The biggest thing I learned today is:
+
+> Authentication proves who you are, while authorization controls what you are allowed to do.
+
+Both are important for protecting web applications and user accounts.
+
+## 🚀 Next Step
+
+Next, I will start learning about the **OWASP Top 10** and common web application security risks.
+
+### Progress
+
+- [x] Authentication
+- [x] Authorization
+- [x] Password security
+- [x] MFA
+- [x] Least privilege
+- [x] Common authentication problems
+- [x] Common authorization problems
