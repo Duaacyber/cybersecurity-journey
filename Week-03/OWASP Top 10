@@ -1,0 +1,190 @@
+# OWASP Top 10 — Day 21
+
+Today I started learning about the **OWASP Top 10**.
+
+OWASP stands for:
+
+**Open Worldwide Application Security Project**
+
+OWASP is a community that provides resources and information about application security.
+
+The OWASP Top 10 is a list of important web application security risks.
+
+## 🌐 Why OWASP Top 10 Matters
+
+Web applications can contain security weaknesses.
+
+Learning the OWASP Top 10 helps cybersecurity beginners understand:
+
+- Common web vulnerabilities
+- How security problems happen
+- How applications can be protected
+- What security areas to look for during testing
+
+It is also useful knowledge for people interested in **web security and penetration testing**.
+
+## 🔟 Main OWASP Top 10 Categories
+
+The OWASP Top 10 list includes categories such as:
+
+1. Broken Access Control
+2. Cryptographic Failures
+3. Injection
+4. Insecure Design
+5. Security Misconfiguration
+6. Vulnerable and Outdated Components
+7. Identification and Authentication Failures
+8. Software and Data Integrity Failures
+9. Security Logging and Monitoring Failures
+10. Server-Side Request Forgery (SSRF)
+
+These categories cover different types of security problems that can affect web applications.
+
+## 🔐 1. Broken Access Control
+
+This happens when a user can access something they should not be allowed to access.
+
+For example:
+
+A normal user accessing an administrator-only function.
+
+The main idea is:
+
+**Users should only have access to resources they are authorized to use.**
+
+## 🔒 2. Cryptographic Failures
+
+This category relates to problems with protecting sensitive information.
+
+Examples include:
+
+- Poor encryption
+- Weak cryptographic algorithms
+- Exposing sensitive information
+- Improper protection of passwords
+
+Sensitive data should be properly protected both when stored and when transmitted.
+
+## 💉 3. Injection
+
+Injection vulnerabilities happen when untrusted input is interpreted as part of a command or query.
+
+Examples include:
+
+- SQL Injection
+- Command Injection
+- Other forms of injection
+
+Proper input handling and parameterized queries can help reduce these risks.
+
+## ⚙️ 4. Insecure Design
+
+Security problems can sometimes happen because security was not considered during the design of an application.
+
+Secure design means thinking about:
+
+- Threats
+- Permissions
+- Authentication
+- Data protection
+- Abuse cases
+
+before building the application.
+
+## 🛠️ 5. Security Misconfiguration
+
+A system can become vulnerable because of incorrect or insecure configuration.
+
+Examples include:
+
+- Unnecessary services enabled
+- Default credentials
+- Excessive permissions
+- Detailed error messages exposed to users
+
+Secure configuration is an important part of cybersecurity.
+
+## 📦 6. Vulnerable and Outdated Components
+
+Applications often use third-party libraries and frameworks.
+
+If these components contain known vulnerabilities and are not updated, attackers may be able to take advantage of them.
+
+Keeping software updated is therefore important.
+
+## 👤 7. Identification and Authentication Failures
+
+This category involves weaknesses in authentication systems.
+
+Examples include:
+
+- Weak passwords
+- Poor login protections
+- Weak session management
+- Missing MFA
+
+Strong authentication helps protect user accounts.
+
+## 📝 8. Software and Data Integrity Failures
+
+Applications should verify that software and important data come from trusted sources and have not been improperly modified.
+
+Secure update processes and trusted dependencies are important here.
+
+## 📊 9. Security Logging and Monitoring Failures
+
+Security logs help defenders understand what happened in a system.
+
+Without proper logging and monitoring, suspicious activity may be difficult to detect or investigate.
+
+Important events should be logged and monitored appropriately.
+
+## 🌍 10. Server-Side Request Forgery (SSRF)
+
+SSRF can occur when an application makes requests to other resources based on user-controlled input without proper validation.
+
+This can potentially allow unintended access to internal resources.
+
+## 🧠 What I Learned
+
+Today I understood that web security is not only about finding vulnerabilities.
+
+It is also about:
+
+- Secure design
+- Proper authentication
+- Access control
+- Safe coding
+- Secure configuration
+- Monitoring
+- Regular updates
+
+## 🧪 What I Practiced
+
+Today I:
+
+- Learned what OWASP is.
+- Studied the OWASP Top 10 categories.
+- Read about common web application risks.
+- Connected OWASP concepts with the web security topics I learned earlier.
+
+## 💡 Key Takeaway
+
+The OWASP Top 10 gives me a useful foundation for understanding common web application security problems.
+
+I will use these concepts in future cybersecurity labs and projects.
+
+## 🚀 Next Step
+
+Next, I will learn more about **SQL Injection** and how insecure database queries can create security vulnerabilities.
+
+### Progress
+
+- [x] Learned what OWASP is
+- [x] Studied the OWASP Top 10
+- [x] Learned about common web security risks
+- [x] Reviewed Broken Access Control
+- [x] Reviewed Injection
+- [x] Reviewed Security Misconfiguration
+- [x] Reviewed authentication failures
+- [ ] Practice web security labs
