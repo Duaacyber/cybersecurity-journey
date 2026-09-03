@@ -1,0 +1,122 @@
+# SQL Injection Basics — Day 22
+
+Today I learned about **SQL Injection (SQLi)**.
+
+SQL Injection is a type of injection vulnerability that can happen when an application uses unsafe user input in database queries.
+
+## 🗄️ What is SQL?
+
+SQL stands for **Structured Query Language**.
+
+It is commonly used to communicate with databases.
+
+For example, a web application might use a database to store:
+
+- Usernames
+- Password information
+- Products
+- Orders
+- Customer information
+
+## 💉 What is SQL Injection?
+
+SQL Injection happens when an application incorrectly handles user input and allows that input to affect a database query.
+
+In simple words:
+
+**User input → Application → Database**
+
+If the application does not properly handle the input, an attacker may be able to change the intended meaning of a database query.
+
+## 🧠 Simple Example
+
+Imagine a login system creates a database query using information entered by a user.
+
+An unsafe application might combine the username directly with a SQL query.
+
+If the application does not properly separate user input from SQL commands, the input could potentially change how the query works.
+
+This is why developers should never blindly trust user input.
+
+## ⚠️ Why SQL Injection is Dangerous
+
+Depending on the vulnerability and database permissions, SQL Injection can potentially lead to:
+
+- Unauthorized access
+- Reading sensitive database information
+- Modifying database records
+- Deleting data
+- Bypassing parts of an application's security
+
+The actual impact depends on how the application and database are configured.
+
+## 🔐 How SQL Injection Can Be Prevented
+
+Developers can reduce SQL Injection risks by using secure coding practices.
+
+### 1. Parameterized Queries
+
+Parameterized queries separate SQL commands from user-provided data.
+
+This is one of the most important defenses against SQL Injection.
+
+### 2. Input Validation
+
+Applications should validate input and reject unexpected or invalid data.
+
+However, input validation should not be the only defense.
+
+### 3. Least Privilege
+
+Database accounts should only have the permissions they actually need.
+
+If an application does not need permission to delete data, its database account should not have that permission.
+
+### 4. Secure Coding
+
+Developers should avoid building SQL queries by directly concatenating untrusted user input.
+
+## 🧪 What I Practiced
+
+Today I:
+
+- Learned what SQL is.
+- Learned what SQL Injection means.
+- Understood how unsafe input can affect database queries.
+- Learned why user input should not be blindly trusted.
+- Studied basic SQL Injection prevention techniques.
+- Reviewed the importance of parameterized queries and least privilege.
+
+## 🛡️ Safe Practice
+
+I will only practice SQL Injection concepts in:
+
+- TryHackMe labs
+- Intentionally vulnerable applications
+- My own local test environment
+- Systems where I have explicit permission
+
+I will not test random websites or systems.
+
+## 💡 What I Understood
+
+The main thing I learned today is:
+
+> SQL Injection is not simply about entering special characters into a form. The real problem is unsafe handling of user input when constructing database queries.
+
+Secure applications should keep **data separate from SQL commands**.
+
+## 🚀 Next Step
+
+Next, I will learn about **Cross-Site Scripting (XSS)** and how unsafe input can affect users through web pages.
+
+### Progress
+
+- [x] Learned what SQL is
+- [x] Learned what SQL Injection is
+- [x] Understood why SQL Injection happens
+- [x] Learned about its possible impact
+- [x] Learned about parameterized queries
+- [x] Learned about input validation
+- [x] Learned about least privilege
+- [x] Reviewed safe cybersecurity practice
