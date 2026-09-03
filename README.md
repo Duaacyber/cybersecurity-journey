@@ -72,16 +72,6 @@ My goal is to develop strong practical and theoretical foundations in cybersecur
 * Capture-the-Flag challenges
 
 ---
-## 📈 Learning Progress
-
-**Month 1:** Cybersecurity Fundamentals 🔄
-**Month 2:** Networking ⬜
-**Month 3:** Linux & Python ⬜
-**Month 4:** Ethical Hacking ⬜
-**Month 5:** Security Projects ⬜
-**Month 6:** Portfolio & Advanced Practice ⬜
-
----
 
 ## 🛠️ Tools & Technologies
 
