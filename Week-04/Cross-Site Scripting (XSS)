@@ -1,0 +1,140 @@
+# Cross-Site Scripting (XSS) — Day 23
+
+Today I learned about **Cross-Site Scripting (XSS)**.
+
+XSS is a common web application security vulnerability where untrusted input can be included in a web page in a way that causes unintended code to run in a user's browser.
+
+## 🌐 What is XSS?
+
+XSS stands for **Cross-Site Scripting**.
+
+It happens when a web application does not properly handle untrusted input before displaying it in a web page.
+
+In simple words:
+
+**User input → Website → Browser**
+
+If the website handles the input incorrectly, an attacker may be able to make the browser interpret the input as code instead of normal text.
+
+## 🧠 Why is XSS Dangerous?
+
+Depending on the situation, XSS can potentially allow an attacker to:
+
+- Perform actions as the affected user
+- Access information available to client-side scripts
+- Change what the victim sees on a page
+- Redirect users to malicious websites
+- Steal sensitive information that is accessible to scripts
+
+The actual impact depends on the type of XSS and the application's security controls.
+
+## 🔎 Types of XSS
+
+I learned about three common types of XSS.
+
+### 1. Reflected XSS
+
+Reflected XSS happens when malicious input is immediately returned by a web application in its response.
+
+For example, input submitted through a search or form may be displayed on the page without proper handling.
+
+### 2. Stored XSS
+
+Stored XSS happens when unsafe input is saved by an application and later displayed to other users.
+
+Examples of places where user content may be stored include:
+
+- Comments
+- Forums
+- User profiles
+- Messages
+
+Stored XSS can be especially serious because multiple users may be affected.
+
+### 3. DOM-Based XSS
+
+DOM-Based XSS happens when client-side JavaScript processes untrusted data and changes the webpage in an unsafe way.
+
+This type of XSS can occur mainly in the browser without the malicious input being directly returned by the server.
+
+## 🛡️ How Can XSS Be Prevented?
+
+There are several ways developers can reduce XSS risks.
+
+### Output Encoding
+
+User-controlled data should be properly encoded before being displayed as HTML.
+
+This helps the browser treat the content as data rather than executable code.
+
+### Input Validation
+
+Applications should validate user input where appropriate.
+
+However, input validation should not be the only defense.
+
+### Content Security Policy
+
+A **Content Security Policy (CSP)** can provide an additional layer of protection by controlling which types of content and scripts a browser is allowed to load or execute.
+
+### Secure Coding
+
+Developers should avoid unsafe ways of inserting untrusted data into webpages.
+
+## 🔐 XSS vs SQL Injection
+
+I also compared XSS with SQL Injection.
+
+| XSS | SQL Injection |
+|---|---|
+| Targets web browsers/users | Targets databases |
+| Involves web page content | Involves database queries |
+| Can execute unwanted client-side code | Can manipulate database queries |
+| Mainly affects users and browsers | Mainly affects application/database data |
+
+Both vulnerabilities can happen when applications fail to properly handle untrusted input.
+
+## 🧪 What I Practiced
+
+Today I:
+
+- Learned what XSS means.
+- Studied reflected XSS.
+- Studied stored XSS.
+- Studied DOM-based XSS.
+- Learned why untrusted input is dangerous.
+- Learned basic XSS prevention methods.
+- Compared XSS with SQL Injection.
+
+## 🛡️ Safe Practice
+
+I will only practice XSS in:
+
+- TryHackMe labs
+- Intentionally vulnerable applications
+- My own local lab
+- Systems where I have explicit permission
+
+I will not test random websites.
+
+## 💡 What I Understood
+
+The biggest lesson from today is:
+
+> Never assume that user input is safe.
+
+Web applications should properly handle untrusted data before displaying or processing it.
+
+## 🚀 Next Step
+
+Next, I will learn about **Burp Suite** and how it can be used as a web security testing tool in authorized labs.
+
+### Progress
+
+- [x] Learned what XSS is
+- [x] Reflected XSS
+- [x] Stored XSS
+- [x] DOM-Based XSS
+- [x] XSS prevention
+- [x] Compared XSS and SQL Injection
+- [x] Reviewed safe testing practices
