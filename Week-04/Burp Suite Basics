@@ -1,0 +1,150 @@
+# Burp Suite Basics — Day 24
+
+Today I learned about **Burp Suite**, a popular web application security testing tool.
+
+Burp Suite can help security researchers understand how a web application communicates between a browser and a server.
+
+## 🌐 What is Burp Suite?
+
+Burp Suite is a collection of tools used for **web application security testing**.
+
+It can help security professionals:
+
+- Inspect HTTP requests and responses
+- Understand how websites communicate
+- Test application behavior
+- Identify potential security issues
+- Modify requests in an authorized testing environment
+
+## 🔄 How Burp Suite Works
+
+A simple web request normally looks like:
+
+**Browser → Web Server**
+
+With Burp Suite, it can become:
+
+**Browser → Burp Suite → Web Server**
+
+This allows me to inspect the communication between the browser and the server.
+
+## 🧰 Important Burp Suite Tools
+
+### 1. Proxy
+
+The Proxy allows me to intercept and inspect HTTP/HTTPS traffic between the browser and the web application.
+
+I learned that this is one of the most important features for understanding web requests.
+
+### 2. Repeater
+
+Repeater allows a request to be sent again so that I can study how the application responds to different inputs.
+
+It is useful for testing application behavior in a controlled lab.
+
+### 3. Intruder
+
+Intruder can be used to automate customized requests for authorized security testing.
+
+It can be useful for testing things such as input handling and authentication controls.
+
+### 4. Decoder
+
+Decoder helps with encoding and decoding different types of data.
+
+This can be useful when analyzing information found in web requests.
+
+### 5. HTTP History
+
+HTTP History allows me to review requests and responses that have passed through Burp Proxy.
+
+This helps me understand what a web application is sending and receiving.
+
+## 📩 HTTP Requests
+
+When I interact with a website, my browser sends HTTP requests.
+
+A request can contain things such as:
+
+- HTTP method
+- URL
+- Headers
+- Cookies
+- Parameters
+- Request body
+
+Common HTTP methods include:
+
+- GET
+- POST
+- PUT
+- DELETE
+
+## 📤 HTTP Responses
+
+The server sends an HTTP response back to the browser.
+
+A response can contain:
+
+- Status code
+- Headers
+- Cookies
+- Response body
+
+Examples of status codes include:
+
+- 200 — OK
+- 301 — Redirect
+- 403 — Forbidden
+- 404 — Not Found
+- 500 — Internal Server Error
+
+## 🧪 What I Practiced
+
+Today I:
+
+- Learned what Burp Suite is.
+- Learned how a proxy works.
+- Explored HTTP requests and responses.
+- Learned about Proxy.
+- Learned about Repeater.
+- Learned about Intruder.
+- Learned about Decoder.
+- Reviewed HTTP methods and status codes.
+- Practiced observing web traffic in an authorized lab environment.
+
+## 🔐 Safe Practice
+
+Burp Suite is a powerful security testing tool.
+
+I will only use it on:
+
+- TryHackMe labs
+- Intentionally vulnerable applications
+- My own test applications
+- Systems where I have explicit permission to test
+
+I will not intercept or modify traffic belonging to other people or unauthorized websites.
+
+## 💡 What I Understood
+
+The biggest thing I learned today is:
+
+> Burp Suite helps security professionals see and understand the communication between a web browser and a web server.
+
+Understanding HTTP traffic is an important skill for web security.
+
+## 🚀 Next Step
+
+Next, I will practice web security concepts in an **authorized TryHackMe lab** and apply what I have learned about HTTP, cookies, authentication, SQL Injection, XSS, and Burp Suite.
+
+### Progress
+
+- [x] Learned what Burp Suite is
+- [x] Learned about Proxy
+- [x] Learned about Repeater
+- [x] Learned about Intruder
+- [x] Learned about Decoder
+- [x] Reviewed HTTP requests
+- [x] Reviewed HTTP responses
+- [x] Practiced in an authorized environment
