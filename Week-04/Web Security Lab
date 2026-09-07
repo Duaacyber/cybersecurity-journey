@@ -1,0 +1,139 @@
+# Web Security Lab — Day 25
+
+Today I practiced the web security concepts I learned during this week in an authorized lab environment.
+
+This was my first focused practice session combining different web security topics together.
+
+## 🎯 What I Practiced
+
+During the lab, I reviewed:
+
+- HTTP requests and responses
+- HTTP methods
+- Status codes
+- Cookies and sessions
+- Authentication and authorization
+- SQL Injection concepts
+- Cross-Site Scripting (XSS)
+- Burp Suite basics
+
+## 🌐 Understanding Web Requests
+
+I used the browser and security tools to observe how a web application communicates with a server.
+
+I looked at information such as:
+
+- Request method
+- URL
+- Headers
+- Cookies
+- Parameters
+- Response status
+- Response content
+
+This helped me understand that websites are constantly sending requests and receiving responses.
+
+## 🛠️ Burp Suite Practice
+
+I used Burp Suite in the authorized lab to understand HTTP traffic.
+
+I practiced:
+
+- Observing requests
+- Reading request headers
+- Looking at responses
+- Reviewing HTTP History
+- Sending requests to Repeater for further analysis
+
+I focused on understanding what was happening rather than blindly using tools.
+
+## 🔐 Authentication & Authorization
+
+I reviewed the difference between authentication and authorization.
+
+**Authentication:** Who are you?
+
+**Authorization:** What are you allowed to do?
+
+I also looked for situations in the lab where different users or roles had different permissions.
+
+## 🍪 Cookies & Sessions
+
+I reviewed how cookies can be used to maintain a user's session.
+
+I checked how cookies appear in HTTP requests and learned why session security is important.
+
+Important security attributes I learned about include:
+
+- Secure
+- HttpOnly
+- SameSite
+
+## 💉 SQL Injection Review
+
+I reviewed the concept of SQL Injection in the lab.
+
+The main lesson was that applications should never blindly trust user input.
+
+Secure development practices such as parameterized queries help prevent SQL Injection.
+
+## 🕸️ XSS Review
+
+I also reviewed Cross-Site Scripting.
+
+I learned that XSS can happen when an application handles untrusted input incorrectly and allows it to be interpreted as executable content by a browser.
+
+I reviewed:
+
+- Reflected XSS
+- Stored XSS
+- DOM-Based XSS
+
+## 📝 What I Learned
+
+This lab helped me connect the concepts I studied during the previous days.
+
+Before this week, web security topics seemed like separate concepts.
+
+Now I understand how they can be connected:
+
+**HTTP → Cookies → Sessions → Authentication → Authorization → Web Vulnerabilities → Security Testing**
+
+## 💡 My Main Takeaway
+
+The biggest lesson from this week is:
+
+> Understanding how a web application works is important before trying to find security weaknesses in it.
+
+I also learned that cybersecurity tools are only useful when I understand what the tool is showing me.
+
+## 🛡️ Safe Practice
+
+All testing was performed only in an authorized lab environment.
+
+I will not test websites or systems without permission.
+
+## 🚀 What I Will Learn Next
+
+The next phase of my cybersecurity roadmap will focus more deeply on:
+
+- Linux
+- Users and groups
+- File permissions
+- Processes
+- Networking commands
+- Logs
+- Bash scripting
+
+I am now moving from **Web Security** into **Linux & Command Line Security**.
+
+### Progress
+
+- [x] Reviewed HTTP
+- [x] Reviewed cookies and sessions
+- [x] Reviewed authentication
+- [x] Reviewed authorization
+- [x] Reviewed SQL Injection
+- [x] Reviewed XSS
+- [x] Practiced Burp Suite
+- [x] Completed an authorized web security practice session
