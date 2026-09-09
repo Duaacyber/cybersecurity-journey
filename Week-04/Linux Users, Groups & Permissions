@@ -1,0 +1,41 @@
+# Linux Users, Groups & Permissions — Day 26
+
+Today I started the **Linux & Command Line Security** phase of my cybersecurity roadmap.
+
+I learned about Linux users, groups, file ownership, and permissions.
+
+Linux is very important in cybersecurity because many servers and security tools use Linux.
+
+## 👤 Linux Users
+
+A Linux system can have multiple users.
+
+Each user can have different permissions and access to different files and resources.
+
+There are usually two main types of users:
+
+- Regular users
+- Root user
+
+### Root User
+
+The root user has very high privileges and can perform administrative tasks on the system.
+
+Because root has a lot of power, it should be used carefully.
+
+## 👥 Linux Groups
+
+Groups allow multiple users to share permissions.
+
+For example, a group could be created for users who need access to the same files or resources.
+
+Instead of giving permissions to every user individually, permissions can be assigned through groups.
+
+## 📂 File Ownership
+
+Linux files and directories have an owner and a group.
+
+I can check ownership and permissions using:
+
+```bash
+ls -l
