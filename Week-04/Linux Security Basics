@@ -1,0 +1,43 @@
+# Linux Security Basics — Days 27
+
+This week I started learning more about **Linux system security**.
+
+I focused on three areas:
+
+- Users, groups, and permissions
+- Processes and process management
+- Networking and network connections
+
+These topics are important because cybersecurity professionals often need to understand who can access a system, what is running on it, and how it communicates over a network.
+
+---
+
+
+
+## 👤 Linux Users
+
+Linux systems can have multiple users.
+
+Each user can have different permissions and access to files, directories, and system resources.
+
+There are two important types of accounts I learned about:
+
+- Regular users
+- Root user
+
+The **root user** has extensive administrative privileges, so it should be used carefully.
+
+## 👥 Linux Groups
+
+Groups allow multiple users to share permissions.
+
+For example, instead of assigning the same permission to several users individually, users can be placed in a group and permissions can be assigned to that group.
+
+## 📂 File Ownership
+
+Linux files and directories have an owner and a group.
+
+I can view file ownership and permissions using:
+
+```bash
+ls -l
