@@ -1,0 +1,98 @@
+# 🔐 Day 28 — Linux Security Audit
+
+Today I worked on a basic Linux Security Audit using Bash.
+
+The goal of this project was to understand how Linux systems can be checked for basic security information and possible misconfigurations.
+
+## 🎯 What I Learned
+
+* Linux file permissions
+* Users and groups
+* Running processes
+* Open network ports
+* SUID files
+* Logged-in users
+* Basic Linux security checks
+* Bash scripting
+
+## 🛠️ What I Built
+
+I created a simple Bash script that performs several basic security checks on a Linux system.
+
+The script checks:
+
+* Current user
+* Operating system information
+* Logged-in users
+* Running processes
+* Open ports
+* SUID files
+
+## 💻 Tools Used
+
+* Linux
+* Bash
+* Terminal
+* Basic Linux security commands
+
+## 🚀 How to Run
+
+Clone the repository:
+
+```bash
+git clone YOUR-REPOSITORY-LINK
+```
+
+Move into the project directory:
+
+```bash
+cd Day-30-Linux-Security-Audit
+```
+
+Make the script executable:
+
+```bash
+chmod +x security_audit.sh
+```
+
+Run the script:
+
+```bash
+./security_audit.sh
+```
+
+## 📚 Commands Practiced
+
+Some of the Linux commands I practiced during this project:
+
+```bash
+whoami
+uname -a
+who
+ps aux
+ss -tuln
+find / -perm -4000
+```
+
+## 💡 What I Learned From This Project
+
+This project helped me understand that Linux security is not only about knowing commands. It is also about understanding what the output means and identifying things that could potentially create security risks.
+
+I also learned how Bash can be used to automate repetitive security checks.
+
+## 🔮 Future Improvements
+
+I would like to improve this project by adding:
+
+* Better output formatting
+* Security warnings
+* Log file generation
+* Permission checks
+* Password policy checks
+* Automated vulnerability checks
+
+## 📌 Learning Progress
+
+**Day 30 / Cybersecurity Journey**
+
+Continuing to learn Linux, networking, cybersecurity fundamentals, and practical security skills.
