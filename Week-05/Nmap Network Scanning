@@ -1,0 +1,118 @@
+# 🔐 Day 29 — Nmap Network Scanning
+
+Today I started learning about network scanning using Nmap.
+
+Nmap is a network scanning tool commonly used in cybersecurity to discover hosts, identify open ports, and gather information about network services.
+
+I practiced Nmap in my own lab environment to understand how network scanning works.
+
+## 🎯 What I Learned
+
+* What Nmap is
+* What an IP address is
+* What network ports are
+* Difference between TCP and UDP
+* Open, closed, and filtered ports
+* Basic network scanning
+* Service and version detection
+* Basic OS detection
+* Why network scanning is important in cybersecurity
+
+## 🛠️ Tool Used
+
+* Nmap
+* Linux Terminal
+
+## 💻 Commands Practiced
+
+### 1. Basic Scan
+
+```bash
+nmap localhost
+```
+
+This performs a basic scan of the local system.
+
+### 2. Service and Version Detection
+
+```bash
+nmap -sV localhost
+```
+
+This attempts to identify the services and their versions running on open ports.
+
+### 3. Scan Ports 1–1000
+
+```bash
+nmap -p 1-1000 localhost
+```
+
+This scans ports from 1 to 1000.
+
+### 4. Operating System Detection
+
+```bash
+nmap -O localhost
+```
+
+This attempts to identify the operating system of the target.
+
+## 📊 Understanding Ports
+
+A port is a logical communication endpoint used by network services.
+
+Examples:
+
+| Port | Common Service |
+| ---- | -------------- |
+| 22   | SSH            |
+| 53   | DNS            |
+| 80   | HTTP           |
+| 443  | HTTPS          |
+| 21   | FTP            |
+| 25   | SMTP           |
+
+## 🔎 Understanding Scan Results
+
+### Open
+
+A service is actively listening on the port.
+
+### Closed
+
+The port is reachable, but there is no service currently listening.
+
+### Filtered
+
+Nmap cannot determine whether the port is open because filtering, such as a firewall, is blocking the response.
+
+## ⚠️ Ethical Note
+
+Network scanning should only be performed against systems that I own or have explicit permission to test.
+
+For this project, I practiced using my own local/lab environment.
+
+## 💡 What I Learned From This Project
+
+This project helped me understand that network security starts with visibility.
+
+Before identifying vulnerabilities, security professionals often need to understand what devices, ports, and services are exposed.
+
+I also learned that using a security tool is only part of the process. Understanding the results is equally important.
+
+## 🚀 Future Improvements
+
+In future projects, I want to learn:
+
+* Network enumeration
+* More Nmap scan types
+* Vulnerability scanning
+* Service enumeration
+* Network security monitoring
+* Practical penetration-testing techniques
+
+## 📌 Learning Progress
+
+**Day 29 / Cybersecurity Journey**
+
+Continuing to build my cybersecurity knowledge through hands-on practice, projects, and labs.
