@@ -1,0 +1,110 @@
+# 🔐 Day 30 — Network Enumeration
+
+Today I continued my networking and cybersecurity learning by studying network enumeration.
+
+After learning the basics of Nmap on Day 31, I practiced using Nmap to gather more information about services running on a system.
+
+## 🎯 What I Learned
+
+* What network enumeration means
+* Open ports
+* Running services
+* Service versions
+* Nmap scripts
+* Basic service enumeration
+* Why enumeration is important in cybersecurity
+
+## 🛠️ Tool Used
+
+* Nmap
+* Linux Terminal
+
+## 💻 Commands Practiced
+
+### Basic Scan
+
+```bash
+nmap localhost
+```
+
+### Service Version Detection
+
+```bash
+nmap -sV localhost
+```
+
+The `-sV` option attempts to identify the services and their versions.
+
+### Default Script Scan
+
+```bash
+nmap -sC localhost
+```
+
+The `-sC` option runs Nmap's default scripts to gather additional information.
+
+### Service + Default Scripts
+
+```bash
+nmap -sC -sV localhost
+```
+
+This combines service/version detection with Nmap's default scripts.
+
+## 🔎 What Is Enumeration?
+
+Enumeration is the process of gathering detailed information about a system or network.
+
+For example, security professionals may want to determine:
+
+* Which ports are open?
+* Which services are running?
+* What versions are being used?
+* What information can the services reveal?
+
+This information can help during security assessments and vulnerability analysis.
+
+## 📊 Example
+
+If a scan shows:
+
+```text
+22/tcp   open   ssh
+80/tcp   open   http
+```
+
+This tells us that:
+
+* Port 22 has an SSH service
+* Port 80 has an HTTP service
+
+The next step would be understanding what those services are and whether they are configured securely.
+
+## ⚠️ Ethical Use
+
+Network enumeration should only be performed on systems that I own or have explicit permission to test.
+
+For this project, I used my own lab environment or authorized training systems.
+
+## 💡 What I Learned
+
+I learned that scanning is only the beginning.
+
+Nmap can help provide information about a target, but cybersecurity requires understanding what that information means and how it relates to security.
+
+## 🚀 Next Steps
+
+I want to continue learning:
+
+* Web enumeration
+* HTTP and HTTPS
+* Directory discovery
+* Vulnerability scanning
+* OWASP security concepts
+* Practical cybersecurity labs
+
+## 📌 Learning Progress
+
+**Day 30/ Cybersecurity Journey**
+
+Continuing to build practical cybersecurity and networking skills through hands-on learning.
