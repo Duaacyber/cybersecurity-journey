@@ -1,0 +1,149 @@
+# 🌐 Day 31 — HTTP & HTTPS Fundamentals
+
+Today I started learning the fundamentals of HTTP and HTTPS as part of my cybersecurity journey.
+
+Understanding how web browsers communicate with servers is an important foundation for learning web security.
+
+## 🎯 What I Learned
+
+* What HTTP is
+* What HTTPS is
+* HTTP requests and responses
+* HTTP methods
+* HTTP status codes
+* Headers
+* Cookies
+* Basic TLS/SSL concepts
+* Why HTTPS is important
+
+## 🔄 HTTP Request and Response
+
+A basic web communication process looks like this:
+
+```text
+Browser
+   ↓
+HTTP Request
+   ↓
+Web Server
+   ↓
+HTTP Response
+   ↓
+Browser
+```
+
+The browser sends a request to the server, and the server sends back a response.
+
+## 📨 Common HTTP Methods
+
+| Method | Purpose          |
+| ------ | ---------------- |
+| GET    | Retrieve data    |
+| POST   | Send/create data |
+| PUT    | Update data      |
+| DELETE | Delete data      |
+
+## 📊 Common HTTP Status Codes
+
+| Status Code | Meaning                |
+| ----------- | ---------------------- |
+| 200         | OK                     |
+| 301         | Permanently Redirected |
+| 302         | Temporarily Redirected |
+| 400         | Bad Request            |
+| 401         | Unauthorized           |
+| 403         | Forbidden              |
+| 404         | Not Found              |
+| 500         | Internal Server Error  |
+
+## 🧩 HTTP Headers
+
+Headers provide additional information about an HTTP request or response.
+
+Examples include:
+
+```text
+Content-Type
+User-Agent
+Host
+Cookie
+Authorization
+```
+
+## 🍪 Cookies
+
+Cookies are small pieces of data stored by a browser.
+
+Websites can use cookies for things such as:
+
+* Sessions
+* Preferences
+* Authentication
+* Tracking
+
+## 🔒 HTTP vs HTTPS
+
+HTTP sends web traffic without the encryption provided by TLS.
+
+HTTPS uses TLS to protect communication between the browser and server.
+
+This helps provide:
+
+* Confidentiality
+* Integrity
+* Server authentication
+
+## 💻 Commands Practiced
+
+I used `curl` to inspect HTTP responses.
+
+```bash
+curl -I https://example.com
+```
+
+I also used:
+
+```bash
+curl -v https://example.com
+```
+
+to observe more details about the connection.
+
+## 🔎 Browser Practice
+
+I opened Developer Tools and used:
+
+```text
+Network → Request → Response → Headers
+```
+
+to observe how a browser communicates with a web server.
+
+## 💡 What I Learned
+
+Before learning web vulnerabilities, it is important to understand how normal web communication works.
+
+Learning HTTP and HTTPS gives me a foundation for understanding areas such as authentication, sessions, cookies, APIs, and web vulnerabilities.
+
+## ⚠️ Ethical Practice
+
+I only inspect websites and systems that I own or have explicit permission to test.
+
+For security testing, I will use authorized labs and training environments.
+
+## 🚀 Next Steps
+
+Next, I want to learn more about:
+
+* HTTP headers
+* Cookies and sessions
+* Authentication
+* Web enumeration
+* OWASP Top 10
+* Web security labs
+
+## 📌 Learning Progress
+
+**Day 31 / Cybersecurity Journey**
+
+Continuing to build my cybersecurity knowledge through practical learning and hands-on labs.
