@@ -1,0 +1,164 @@
+# 🌐 Day 32 — HTTP Headers & Cookies
+
+Today I continued learning web security by studying HTTP headers, cookies, and basic session concepts.
+
+These concepts are important for understanding how websites handle communication, authentication, and user sessions.
+
+## 🎯 What I Learned
+
+* What HTTP headers are
+* Request headers
+* Response headers
+* Security-related headers
+* What cookies are
+* Session cookies
+* Authentication cookies
+* Basic session management
+* Why cookies need to be protected
+
+## 📨 Request Headers
+
+Request headers provide information sent from the browser or client to the server.
+
+Examples include:
+
+```text
+Host
+User-Agent
+Accept
+Cookie
+Authorization
+Content-Type
+```
+
+## 📤 Response Headers
+
+Response headers provide information from the server to the browser.
+
+Examples include:
+
+```text
+Content-Type
+Content-Length
+Set-Cookie
+Location
+Cache-Control
+Content-Security-Policy
+Strict-Transport-Security
+```
+
+## 🍪 What Are Cookies?
+
+Cookies are small pieces of information that websites can store in a user's browser.
+
+They can be used for:
+
+* Sessions
+* Authentication
+* User preferences
+* Website functionality
+
+## 🔐 Set-Cookie
+
+A server can send a cookie to a browser using the `Set-Cookie` response header.
+
+Example:
+
+```text
+Set-Cookie: session_id=example123
+```
+
+The browser can then send the cookie back to the server in later requests.
+
+## 🔄 Basic Session Flow
+
+```text
+Browser
+   ↓
+Login Request
+   ↓
+Web Server
+   ↓
+Session Created
+   ↓
+Set-Cookie
+   ↓
+Browser Stores Cookie
+   ↓
+Future Requests Include Cookie
+```
+
+## 🛡️ Important Cookie Security Attributes
+
+### Secure
+
+Helps ensure that a cookie is sent only over HTTPS connections.
+
+### HttpOnly
+
+Helps prevent JavaScript from directly accessing the cookie.
+
+### SameSite
+
+Controls when cookies are sent with cross-site requests and can help reduce certain cross-site request risks.
+
+## 🔒 Security Headers
+
+Some headers can provide additional security protections.
+
+Examples:
+
+```text
+Content-Security-Policy
+Strict-Transport-Security
+X-Content-Type-Options
+Referrer-Policy
+```
+
+## 💻 Practice
+
+I used `curl` to inspect response headers:
+
+```bash
+curl -I https://example.com
+```
+
+I also explored the browser's Developer Tools:
+
+```text
+Developer Tools → Network → Headers
+```
+
+and:
+
+```text
+Developer Tools → Application/Storage → Cookies
+```
+
+I used websites and systems that I was authorized to inspect.
+
+## 💡 What I Learned
+
+HTTP headers and cookies may look like small parts of web communication, but they can have an important role in authentication, sessions, and security.
+
+Understanding them will help me later when learning web vulnerabilities and the OWASP Top 10.
+
+## ⚠️ Ethical Practice
+
+I only inspect websites and systems that I own or have explicit permission to test.
+
+I do not access, copy, or expose other people's session cookies or authentication information.
+
+## 🚀 Next Steps
+
+Next I want to learn:
+
+* Authentication
+* Session management
+* Web enumeration
+* OWASP Top 10
+* Common web vulnerabilities
+* Web security labs
+
+
+Continuing to build my cybersecurity knowledge through practical learning and hands-on labs.
