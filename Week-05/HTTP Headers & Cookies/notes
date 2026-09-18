@@ -1,0 +1,98 @@
+# HTTP Headers & Cookies — Notes
+
+## HTTP Headers
+
+Headers carry additional information between a client and server.
+
+## Request Headers
+
+Sent from the client to the server.
+
+Examples:
+
+* Host
+* User-Agent
+* Accept
+* Cookie
+* Authorization
+
+## Response Headers
+
+Sent from the server to the client.
+
+Examples:
+
+* Content-Type
+* Set-Cookie
+* Location
+* Cache-Control
+* Content-Security-Policy
+
+## Cookies
+
+Cookies are small pieces of data stored by the browser.
+
+They can help websites maintain sessions and remember user preferences.
+
+## Set-Cookie
+
+The server can create or update a cookie using the `Set-Cookie` header.
+
+Example:
+
+```text
+Set-Cookie: session_id=example123
+```
+
+## Cookie Security
+
+Important attributes include:
+
+### Secure
+
+Cookie should only be sent over HTTPS.
+
+### HttpOnly
+
+Helps prevent JavaScript from accessing the cookie.
+
+### SameSite
+
+Controls cross-site cookie sending behavior.
+
+## Session
+
+A session allows a website to associate multiple requests with a particular user or login state.
+
+Basic flow:
+
+```text
+Login
+  ↓
+Server creates session
+  ↓
+Browser receives session cookie
+  ↓
+Browser sends cookie with later requests
+  ↓
+Server recognizes the session
+```
+
+## Security Headers
+
+Examples:
+
+* Content-Security-Policy
+* Strict-Transport-Security
+* X-Content-Type-Options
+* Referrer-Policy
+
+## Key Lesson
+
+Headers and cookies are an important part of web application security.
+
+Understanding how they work makes it easier to understand authentication, sessions, and web vulnerabilities.
+
+## Ethical Reminder
+
+Never access or steal authentication cookies or sessions belonging to other users.
