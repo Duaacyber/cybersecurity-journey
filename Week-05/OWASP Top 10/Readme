@@ -1,0 +1,151 @@
+# 🔐 Day 33 — OWASP Top 10
+
+Today I started learning about the OWASP Top 10 as part of my cybersecurity journey.
+
+The OWASP Top 10 is a widely used awareness resource for important web application security risks.
+
+It helps security learners and developers understand common categories of vulnerabilities and how they can affect web applications.
+
+## 🎯 What I Learned
+
+* What OWASP is
+* What the OWASP Top 10 is
+* Why web application security matters
+* Common categories of web security risks
+* The importance of secure development
+* How vulnerabilities can affect confidentiality, integrity, and availability
+
+## 🌐 What Is OWASP?
+
+OWASP stands for:
+
+**Open Worldwide Application Security Project**
+
+OWASP provides resources, documentation, tools, and guidance related to application security.
+
+## 🔟 OWASP Top 10
+
+The current OWASP Top 10 awareness list I studied includes:
+
+1. Broken Access Control
+2. Cryptographic Failures
+3. Injection
+4. Insecure Design
+5. Security Misconfiguration
+6. Vulnerable and Outdated Components
+7. Identification and Authentication Failures
+8. Software and Data Integrity Failures
+9. Security Logging and Monitoring Failures
+10. Mishandling of Exceptional Conditions
+
+> Note: OWASP updates its resources over time, so I will continue checking the official OWASP documentation as I progress.
+
+## 🧩 1. Broken Access Control
+
+Access control determines what users are allowed to do.
+
+A problem can occur when an application allows a user to access something they should not be able to access.
+
+## 🔐 2. Cryptographic Failures
+
+Sensitive information needs appropriate protection.
+
+Examples of sensitive information can include:
+
+* Passwords
+* Personal information
+* Financial information
+* Authentication data
+
+## 💉 3. Injection
+
+Injection vulnerabilities can occur when untrusted input is interpreted as part of a command or query.
+
+Examples include:
+
+* SQL Injection
+* Command Injection
+* Other forms of injection
+
+## 🏗️ 4. Insecure Design
+
+Security problems can sometimes originate from the design of an application rather than from a simple coding mistake.
+
+Secure design considers security requirements before implementation.
+
+## ⚙️ 5. Security Misconfiguration
+
+Security weaknesses can result from incorrect or unsafe configurations.
+
+Examples include:
+
+* Unnecessary services
+* Default settings
+* Excessive permissions
+* Debug features exposed in production
+
+## 📦 6. Vulnerable and Outdated Components
+
+Applications often depend on third-party libraries and software.
+
+Using outdated or vulnerable components can introduce security risks.
+
+## 🔑 7. Identification and Authentication Failures
+
+Authentication determines whether someone is who they claim to be.
+
+Weak authentication can create risks involving:
+
+* Passwords
+* Sessions
+* Login systems
+* Account recovery
+
+## 🧩 8. Software and Data Integrity Failures
+
+Applications need to ensure that software, updates, and important data come from trusted sources and have not been improperly modified.
+
+## 📋 9. Security Logging and Monitoring Failures
+
+Security logs and monitoring can help organizations detect suspicious activity and investigate incidents.
+
+Without appropriate logging and monitoring, attacks may be harder to detect.
+
+## ⚠️ 10. Mishandling of Exceptional Conditions
+
+Applications need to handle unexpected situations safely.
+
+Poor error handling can sometimes expose information or create security weaknesses.
+
+## 💡 What I Learned
+
+The OWASP Top 10 is not simply a list of hacking techniques.
+
+It is a framework for understanding common categories of application security risks.
+
+My goal is to understand:
+
+**What the vulnerability is → Why it happens → How it can be prevented → How to recognize it in an authorized lab.**
+
+## 🧪 Safe Practice
+
+For practical security testing, I will use intentionally vulnerable applications and authorized cybersecurity labs.
+
+I will not test websites or applications without permission.
+
+## 🚀 Next Steps
+
+I want to study individual OWASP categories in more detail.
+
+Next topics:
+
+* Injection
+* SQL Injection
+* Cross-Site Scripting (XSS)
+* Broken Access Control
+* Authentication vulnerabilities
+* Security Misconfiguration
+
+
+
+Continuing to build practical web security knowledge and learning how common vulnerabilities can be identified and prevented.
