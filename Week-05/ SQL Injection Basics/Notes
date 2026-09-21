@@ -1,0 +1,56 @@
+# SQL Injection — Notes
+
+## What is SQL?
+
+SQL stands for Structured Query Language.
+
+It is used to interact with relational databases.
+
+## What is SQL Injection?
+
+SQL Injection is an injection vulnerability that can occur when untrusted user input is improperly incorporated into a SQL query.
+
+## Basic Concept
+
+A vulnerable application might construct a query like:
+
+```text
+SELECT * FROM users WHERE username = 'USER_INPUT';
+```
+
+The problem occurs when user input is treated as part of the SQL command instead of strictly as data.
+
+## Potential Impact
+
+Depending on the application and database configuration, SQL Injection can potentially affect:
+
+* Data confidentiality
+* Data integrity
+* Authentication
+* Database operations
+
+## Main Prevention
+
+### Parameterized Queries
+
+Parameterized queries separate SQL instructions from user-provided data.
+
+This is one of the primary defenses against SQL Injection.
+
+## Other Security Practices
+
+* Least-privilege database accounts
+* Appropriate input validation
+* Secure coding practices
+* Regular security testing
+* Keeping software and database systems maintained
+
+## Key Lesson
+
+User input should never automatically be trusted.
+
+Applications need to handle external input safely before using it in database operations.
+
+## Ethical Reminder
+
+SQL Injection testing should only be performed against intentionally vulnerable labs or systems where I have explicit authorization.
