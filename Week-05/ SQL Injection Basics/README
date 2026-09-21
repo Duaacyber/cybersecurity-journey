@@ -1,0 +1,113 @@
+# 💉 Day 34 — SQL Injection Basics
+
+Today I started learning about SQL Injection (SQLi) as part of my web security journey.
+
+SQL Injection is a type of injection vulnerability that can occur when an application improperly handles untrusted user input that becomes part of a database query.
+
+I focused on understanding the concept, why it happens, its potential impact, and how developers can prevent it.
+
+## 🎯 What I Learned
+
+* What SQL is
+* What a database is
+* What SQL Injection means
+* How unsafe input handling can create SQL Injection vulnerabilities
+* Why parameterized queries are important
+* Basic SQL Injection concepts
+* The importance of input handling and secure coding
+
+## 🗄️ What Is SQL?
+
+SQL stands for Structured Query Language.
+
+It is commonly used to interact with relational databases.
+
+Examples of database systems include:
+
+* MySQL
+* PostgreSQL
+* Microsoft SQL Server
+* SQLite
+
+## 💉 What Is SQL Injection?
+
+SQL Injection occurs when an application incorrectly incorporates untrusted user input into a SQL query.
+
+An attacker may attempt to manipulate the intended query by providing specially crafted input.
+
+A simplified vulnerable example looks like:
+
+```text
+SELECT * FROM users WHERE username = 'USER_INPUT';
+```
+
+If user input is inserted directly into a query without proper protection, the application's intended SQL logic can potentially be changed.
+
+## ⚠️ Why SQL Injection Is Dangerous
+
+Depending on the application and database configuration, SQL Injection can potentially affect:
+
+* Confidentiality of data
+* Integrity of data
+* Authentication logic
+* Database operations
+
+The actual impact depends on the application's code, database permissions, and security controls.
+
+## 🧠 Root Cause
+
+One major cause of SQL Injection is constructing SQL queries by directly combining SQL code with untrusted user input.
+
+For example:
+
+```text
+SQL query + untrusted input
+```
+
+This makes it difficult for the database to distinguish between:
+
+* SQL instructions
+* User-provided data
+
+## 🛡️ Prevention
+
+A major defense against SQL Injection is using **parameterized queries / prepared statements**.
+
+Instead of directly building a query with user input, the application separates SQL instructions from data.
+
+Other security practices include:
+
+* Using parameterized queries
+* Applying least-privilege database permissions
+* Validating input where appropriate
+* Keeping database software maintained
+* Using secure development practices
+
+## 🧪 Safe Practice
+
+I will practice SQL Injection only in intentionally vulnerable applications and authorized cybersecurity labs.
+
+I will not test real websites or databases without explicit permission.
+
+## 💡 What I Learned
+
+SQL Injection showed me why secure coding is an important part of cybersecurity.
+
+A small mistake in how an application handles user input can potentially create a serious security issue.
+
+Understanding the vulnerability also helped me understand why developers should treat user input as untrusted data.
+
+## 🚀 Next Steps
+
+Next I want to learn:
+
+* SQL fundamentals
+* Parameterized queries
+* SQL Injection lab exercises
+* Authentication-related SQL Injection concepts
+* Web application security testing
+* Cross-Site Scripting (XSS)
+
+
+
+Continuing to learn web security through theory, secure coding concepts, and authorized hands-on labs.
