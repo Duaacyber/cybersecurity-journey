@@ -1,0 +1,50 @@
+# Cross-Site Scripting (XSS) — Notes
+
+## Definition
+
+Cross-Site Scripting (XSS) is a web application vulnerability that can occur when untrusted input is handled in a way that allows it to be interpreted as active content in a user's browser.
+
+## Types of XSS
+
+### Reflected XSS
+
+Input is reflected in the application's response without being safely handled.
+
+### Stored XSS
+
+Untrusted content is stored by the application and later displayed to users.
+
+### DOM-Based XSS
+
+Client-side JavaScript processes untrusted data in an unsafe way.
+
+## Potential Impact
+
+Depending on the context, XSS can potentially:
+
+* Modify web page content
+* Execute attacker-controlled JavaScript
+* Perform actions in a user's browser context
+* Expose information accessible to client-side scripts
+* Manipulate user interactions
+
+## Prevention
+
+Important defenses include:
+
+* Context-aware output encoding
+* Safe DOM APIs
+* Content Security Policy
+* Secure framework features
+* Appropriate input validation
+* Secure cookie settings
+
+## Important Lesson
+
+User-controlled data should not automatically be trusted.
+
+Applications need to safely handle data before displaying it in HTML, JavaScript, or other browser contexts.
+
+## Ethical Reminder
+
+XSS testing should only be performed against intentionally vulnerable labs or systems where I have explicit authorization.
