@@ -1,0 +1,113 @@
+# 🌐 Day 35 — Cross-Site Scripting (XSS)
+
+Today I started learning about Cross-Site Scripting (XSS) as part of my web security journey.
+
+XSS is a web application vulnerability that can occur when an application handles untrusted input in an unsafe way and that input is later interpreted as content in a user's browser.
+
+I focused on understanding the concept, different types of XSS, potential impact, and basic prevention.
+
+## 🎯 What I Learned
+
+* What Cross-Site Scripting (XSS) is
+* How XSS can happen
+* Reflected XSS
+* Stored XSS
+* DOM-based XSS
+* Potential impact of XSS
+* Why output encoding matters
+* Basic XSS prevention
+
+## 🌐 What Is XSS?
+
+Cross-Site Scripting is a type of web application vulnerability where attacker-controlled content can be interpreted as active content in a user's browser.
+
+This can happen when an application does not safely handle untrusted input before displaying it.
+
+## 🔹 Types of XSS
+
+### 1. Reflected XSS
+
+The malicious input is included in a request and reflected back in the server's response.
+
+The payload is generally not permanently stored by the application.
+
+### 2. Stored XSS
+
+The malicious content is stored by the application, such as in a database, and may later be displayed to other users.
+
+Stored XSS can therefore affect multiple users depending on the application.
+
+### 3. DOM-Based XSS
+
+DOM-based XSS occurs when client-side JavaScript processes untrusted data in an unsafe way.
+
+The vulnerability can exist primarily in the browser-side code rather than the server response.
+
+## ⚠️ Potential Impact
+
+Depending on the application and context, XSS can potentially allow attacker-controlled JavaScript to:
+
+* Modify page content
+* Perform actions in a user's browser context
+* Access data exposed to client-side scripts
+* Redirect users
+* Manipulate interactions with a vulnerable application
+
+The actual impact depends on the application's security controls and the context in which the input is rendered.
+
+## 🧠 Why Does XSS Happen?
+
+A common cause is treating untrusted input as safe content.
+
+For example:
+
+```text
+User Input
+    ↓
+Application
+    ↓
+Unsafe HTML/JavaScript Context
+    ↓
+Browser Interprets Content
+```
+
+Applications need to correctly handle and encode untrusted data before placing it into an HTML or JavaScript context.
+
+## 🛡️ Prevention
+
+Important defensive techniques include:
+
+* Context-appropriate output encoding
+* Safe HTML handling
+* Avoiding unsafe DOM APIs
+* Content Security Policy (CSP)
+* Input validation where appropriate
+* Secure framework features
+* Proper handling of cookies
+
+## 🧪 Safe Practice
+
+I will practice XSS only in intentionally vulnerable applications and authorized cybersecurity labs.
+
+I will not test real websites or inject scripts into systems without explicit permission.
+
+## 💡 What I Learned
+
+XSS helped me understand that web security is not only about servers and databases.
+
+The browser is also an important part of the security model.
+
+Understanding how browsers interpret HTML, JavaScript, and user-controlled content is essential for learning web application security.
+
+## 🚀 Next Steps
+
+I want to learn more about:
+
+* HTML and JavaScript security
+* Browser security
+* DOM manipulation
+* Content Security Policy
+* Authentication and session security
+* More OWASP vulnerabilities
+
+Continuing to build practical web security knowledge through theory, secure coding concepts, and authorized labs.
